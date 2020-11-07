@@ -1,7 +1,7 @@
 <template>
   <v-row no-gutters>
     <v-col cols="12" class="my-0">
-        <v-card color="red" tile flat class="white--text">
+        <v-card color="white" tile flat class="white--text">
           <v-img class="align-center justify-center" height="100%" :src="bannerPath">
           <v-row justify="start" align="center">
             <v-col cols="auto" offset="1">
@@ -10,7 +10,7 @@
             <v-col cols="auto">
               <h1 class="text_layout">Fuqaro Nazorati sahifasiga xush kelibsiz </h1>
               <span class=" text_layout_small">Endilikda siz o'z muammo va takliflaringizni
-onlayn tarzda ariza berish orqali amalga oshirishingiz mumkin. </span>
+                  onlayn tarzda ariza berish orqali amalga oshirishingiz mumkin. </span>
             </v-col>
             <v-col cols="12" offset="1">
               <v-btn elevation="0" rounded color="primary" x-large>Play Store</v-btn>
@@ -45,7 +45,7 @@ export default {
   }
   .text_layout {
     color: white;
-    font-size: 4rem;
+    font-size: 6vh;
   }
   .text_layout_small {
     font-size: 1.2rem;

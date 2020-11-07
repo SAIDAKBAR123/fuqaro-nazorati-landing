@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
 $body-font-family: 'Poppins', serif;
+html {
+  background-color: red;
+}
 .v-application {
   font-family: $body-font-family, 'Poppins', serif !important;
+  body {
+    background-color: red;
+  }
    .title { // To pin point specific classes of some components
       font-family: 'Poppins' !important;
    }

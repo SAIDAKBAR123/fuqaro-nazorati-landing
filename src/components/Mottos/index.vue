@@ -5,7 +5,7 @@
       style="width:100px; background: #34A696; border: 4px solid #34A696; border-radius: 10px"
     ></div>
     <div>
-      <p class="text-container">
+      <p class="text-about">
         Loyiha hozirgi vaqtda amalga oshirilgan ilgor texnologiya orqali
         yurtimizdagi oma va boshqa tur vakillari va ularning turdosh qismlarini
         oz ichiga olish bilan bir qatorda tuzilgan. Tizim orqali siz istalgan
@@ -13,15 +13,10 @@
       </p>
     </div>
     <div class="template-box_container">
-      <v-img
-        height="540"
-        max-width="305"
-        src="../../assets/Images/Rectangle 49@1X.png"
-      >
-      </v-img>
-      <div>
+      <div class="rectangle"></div>
+      <div class="text-container">
         <h2 class="text_layout">Template 1.</h2>
-        <p class="text-container">
+        <p>
           Loyiha hozirgi vaqtda amalga oshirilgan ilgor texnologiya orqali
           yurtimizdagi oma va boshqa tur vakillari va ularning turdosh
           qismlarini oz ichiga olish bilan bir qatorda tuzilgan. Tizim orqali
@@ -30,32 +25,22 @@
       </div>
     </div>
     <div class="template-box_container">
-      <div>
-        <h2 class="text_layout">Template 2.</h2>
-        <p class="text-container">
+      <div class="text-container">
+        <h2 class="text_layout">Template 1.</h2>
+        <p>
           Loyiha hozirgi vaqtda amalga oshirilgan ilgor texnologiya orqali
           yurtimizdagi oma va boshqa tur vakillari va ularning turdosh
           qismlarini oz ichiga olish bilan bir qatorda tuzilgan. Tizim orqali
           siz istalgan raqam egasini aniqlash imkoniyatiga ega bol
         </p>
       </div>
-      <v-img
-        height="540"
-        max-width="305"
-        src="../../assets/Images/Rectangle 49@1X.png"
-      >
-      </v-img>
+      <div class="rectangle"></div>
     </div>
     <div class="template-box_container">
-      <v-img
-        height="540"
-        max-width="305"
-        src="../../assets/Images/Rectangle 49@1X.png"
-      >
-      </v-img>
-      <div>
-        <h2 class="text_layout">Template 3.</h2>
-        <p class="text-container">
+      <div class="rectangle"></div>
+      <div class="text-container">
+        <h2 class="text_layout">Template 1.</h2>
+        <p>
           Loyiha hozirgi vaqtda amalga oshirilgan ilgor texnologiya orqali
           yurtimizdagi oma va boshqa tur vakillari va ularning turdosh
           qismlarini oz ichiga olish bilan bir qatorda tuzilgan. Tizim orqali
@@ -64,10 +49,11 @@
       </div>
     </div>
 
+    <!----------------- Biz bilan hamkorlar --------------->
     <div class="parters-block">
       <h2 class=" text-left">Biz bilan hamkorlar</h2>
       <div
-        style="width:200px; background: #34A696; border: 4px solid #34A696; border-radius: 10px"
+        style="width:150px; background: #34A696; border: 4px solid #34A696; border-radius: 10px"
       ></div>
       <div class="partners-body">
         <div class="listofPartners-block">
@@ -88,10 +74,8 @@
         </div>
         <div class="map-block">
           <v-img
-            height="550"
-            width="700"
-            min-height="200"
-            min-width="300"
+            height="auto"
+            width="100%"
             src="../../assets/Images/map-picture.png"
           >
           </v-img>
@@ -99,7 +83,7 @@
       </div>
     </div>
     <v-row color="#E2E2E2">
-      <div class="goals-block" style="margin: 200px auto;">
+      <div class="goals-block" style="margin: 15% auto;">
         <h2 class=" text-center">Bizning asosiy maqsadimiz</h2>
         <p class=" text-center">
           Contrary to popular belief, Lorem Ipsum is not simply random text. It
@@ -157,6 +141,7 @@
             </p>
           </div>
         </div>
+        <!----------------- Bizning asosiy maqsadimiz --------------->
         <div class="mail-block">
           <h1>
             Oxirgi yangiliklardan behabar qolmaslik uchun quyidagi email
@@ -175,7 +160,13 @@
             Jo'natish
           </v-btn> -->
 
-            <v-btn color="primary" elevation="3" depressed height="50">
+            <v-btn
+              color="primary"
+              elevation="3"
+              depressed
+              height="50"
+              width="25%"
+            >
               Jo'natish
             </v-btn>
           </div>
@@ -188,25 +179,78 @@
 <script></script>
 
 <style>
+/* Ilova Haqida */
+
 .templates {
   margin: auto 10%;
 }
+.rectangle {
+  height: 500px;
+  width: 25%;
+  background-color: #34a696;
+}
+.text-about {
+  width: 70%;
+  margin-top: 5%;
+}
 .text-container {
-  max-width: 700px;
-  margin-top: 35px;
+  max-width: 60%;
+  margin-top: 5%;
 }
 .template-box_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1215px;
-  margin: 100px auto;
+  margin: 15% auto;
 }
 .green-box {
   width: 30px;
   height: 540px;
   content: "";
 }
+@media (max-width: 1450px) {
+  .grid-container .grid-item p,
+  h4 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1024px) {
+  .goals-block .grid-container {
+    grid-template-columns: none !important;
+    grid-template-rows: auto auto auto;
+  }
+}
+@media screen and (max-width: 650px) {
+  .text_layout,
+  .text-left,
+  .text-center {
+    font-size: 18px;
+  }
+  .rectangle {
+    height: 300px;
+  }
+  .partners-body {
+    flex-direction: column;
+  }
+  .partners-body .listofPartners-block,
+  .partners-body .map-block {
+    width: 100%;
+  }
+  .mail-block h1 {
+    font-size: 16px;
+  }
+  .v-btn__content {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .text-container {
+    font-size: 10px;
+  }
+}
+
+/*------------- Biz bilan hamkorlar ------------*/
 .parters-block {
   max-width: 1690px;
 }
@@ -214,16 +258,17 @@
   display: flex;
   justify-content: space-between;
 }
-.listofPartners-block {
-  margin-top: 38px;
+.listofPartners-block,
+.map-block {
+  margin-top: 5%;
+  width: 45%;
 }
 .listofPartners-block ul {
-  width: 630px;
   border: 1px solid #e2e2e2;
+  padding: 0;
 }
 .listofPartners-block ul ol {
-  height: 84px;
-  padding: 20px 30px;
+  padding: 5%;
   border-bottom: 1px solid #e2e2e2;
 }
 .listofPartners-block ul ol:hover {
@@ -231,13 +276,14 @@
   transition: 0.2s;
 }
 .goals-block p {
-  max-width: 1100px;
-  margin: 90px auto;
+  max-width: 80%;
+  margin: 5% auto;
 }
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  max-width: 1600px;
+  max-width: 100%;
+  margin: 5% auto;
   justify-content: space-between;
   align-content: center;
 }
@@ -247,46 +293,44 @@
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
-  padding: 20px;
+  padding: 5%;
   font-size: 30px;
   text-align: center;
 }
 .grid-item p {
-  max-width: 400px;
-  margin: 20px;
+  max-width: 100%;
   font-size: 23px;
 }
+
+/* ------------Bizning asosiy maqsadimiz--------------- */
 .mail-block {
   max-width: 1184px;
-  margin: 50px auto;
+  margin: 15% auto;
   text-align: center;
   background-color: white;
   border-radius: 10px;
-  padding: 30px;
+  padding: 10%;
 }
 .mail-input {
   display: flex;
-  max-width: 850px;
+  max-width: 100%;
   margin: 0px auto;
-  margin-top: 100px;
+  margin-top: 15%;
   justify-content: center;
 }
 .input-field {
   background-color: #f8f8f8;
   height: 57px;
-  width: 770px;
+  width: 70%;
   border: none;
 }
 .input-field:placeholder {
-  padding-left: 10px;
+  padding-left: 5%;
 }
 .v-input {
   margin: 0;
 }
 .v-input input {
-  height: 57px;
-}
-.v-input input::la {
   height: 57px;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <v-card class="templates" color="white" tile flat max-width="1690">
+  <v-card class="templates  mt-10" color="white" tile flat max-width="1690">
     <h2 class=" text-left">Ilova haqida</h2>
     <div
       style="width:100px; background: #34A696; border: 4px solid #34A696; border-radius: 10px"
@@ -50,7 +50,7 @@
     </div>
 
     <!----------------- Biz bilan hamkorlar --------------->
-    <div class="parters-block">
+    <!-- <div class="parters-block">
       <h2 class=" text-left">Biz bilan hamkorlar</h2>
       <div
         style="width:150px; background: #34A696; border: 4px solid #34A696; border-radius: 10px"
@@ -81,7 +81,8 @@
           </v-img>
         </div>
       </div>
-    </div>
+    </div> -->
+     <!----------------- Biz asosiy maqsadimiz --------------->
     <v-row color="#E2E2E2">
       <div class="goals-block" style="margin: 15% auto;">
         <h2 class=" text-center">Bizning asosiy maqsadimiz</h2>
@@ -100,13 +101,9 @@
               src="../../assets/Images/document.png"
             >
             </v-img>
-            <h4>Lorem isn sra</h4>
+            <h4>Fuqarolar faolligi</h4>
             <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin
-              professor at Hampden-Sydney College
-            </p>
+            Fuqaro Nazorati bu fuqarolar hayotida sodir bo’ladigan turli xil muammolarini bartaraf</p>
           </div>
           <div class="grid-item">
             <v-img
@@ -116,12 +113,9 @@
               src="../../assets/Images/police.png"
             >
             </v-img>
-            <h4>Lorem isn sra</h4>
+            <h4>Hokimiyat</h4>
             <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin
-              professor at Hampden-Sydney College
+              Tushib keladigan murojaatlarni hokimiyat va mutasaddi tashkilot tomonidan ko’rib chiqlib bartaraf etiladi
             </p>
           </div>
           <div class="grid-item">
@@ -132,12 +126,9 @@
               src="../../assets/Images/pdf-pic.png"
             >
             </v-img>
-            <h4>Lorem isn sra</h4>
+            <h4>Murojaatlar </h4>
             <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin
-              professor at Hampden-Sydney College
+              Fuqarolarga hokimiyat va mutasaddi tashkilotlardan muntazam ravishda murojaat bo’yicha hisobot onlayn rejimda beriladi.
             </p>
           </div>
         </div>
@@ -310,6 +301,8 @@
   background-color: white;
   border-radius: 10px;
   padding: 10%;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .mail-input {
   display: flex;

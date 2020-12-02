@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app width="100%">
     <v-main>
       <router-view></router-view>
     </v-main>
@@ -22,3 +22,11 @@ export default {
   })
 }
 </script>
+
+<style scoped>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+</style>

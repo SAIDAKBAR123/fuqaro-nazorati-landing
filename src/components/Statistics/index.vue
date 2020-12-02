@@ -1,47 +1,23 @@
 <template>
-  <div>
+  <div class="common-container ma-0 pa-0">
     <div class="loyiha-haqida-container">
       <div>
         <p class="loyiha-title">Loyiha haqida qisqacha ma'lumot</p>
         <div class="shape"></div>
-        <p>
-          Loyiha hozirgi vaqtda amalga oshirilgan ilg'or texnologiya orqali
-          yurtimizdagi oma va boshqa tur vakillari va ularning turdosh
-          qismlarini o'z ichiga olish bilan bir qatorda tuzilgan. Tizim orqali
-          siz istalgan raqam egasini aniqlash imkoniyatiga ega bolgan holatda
-          alam qiladigan holat yuzasidan shikoyat.
-        </p>
+        <p>Loyiha hozirgi vaqtda amalga oshirilgan ilg'or texnologiya orqali yurtimizdagi oma va boshqa tur vakillari va ularning turdosh qismlarini o'z ichiga olish bilan bir qatorda tuzilgan. Tizim orqali siz istalgan raqam egasini aniqlash imkoniyatiga ega bolgan holatda alam qiladigan holat yuzasidan shikoyat.</p>
 
         <div>
           <v-list class="list-items">
-            <v-list-item>
-              <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon
-              >Muammoni doimiy monitoringi
-            </v-list-item>
-            <v-list-item>
-              <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon
-              >Hal etilmagan ustidan ariza
-            </v-list-item>
-            <v-list-item>
-              <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon
-              >Doimiy muloqot
-            </v-list-item>
-            <v-list-item>
-              <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon
-              >Bonuslar
-            </v-list-item>
+            <v-list-item> <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon>Muammoni doimiy monitoringi </v-list-item>
+            <v-list-item> <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon>Hal etilmagan ustidan ariza </v-list-item>
+            <v-list-item> <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon>Doimiy muloqot </v-list-item>
+            <v-list-item> <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon>Bonuslar </v-list-item>
           </v-list>
         </div>
-        <v-btn text class="batafsil_btn"
-          >Batafsil<v-icon class="icons">mdi-arrow-right</v-icon>
-        </v-btn>
+        <v-btn text class="batafsil_btn" x-large>Batafsil<v-icon class="icons">mdi-arrow-right</v-icon> </v-btn>
       </div>
       <div class="loyiha-image-container">
-        <img
-          src="../../assets/Images/phone.png"
-          alt="phone image"
-          class="phone_img"
-        />
+        <img src="../../assets/Images/phone.png" alt="phone image" class="phone_img" style="width:70%; height:70%'" />
       </div>
     </div>
 
@@ -50,12 +26,7 @@
       <div class="stats-info">
         <p>Statistika</p>
         <div class="shape s-shape"></div>
-        <p>
-          Loyiha hozirgi vaqtda amalga oshirilgan ilgor texnologiya orqali
-          yurtimizdagi oma va boshqa tur vakillari va ularning turdosh
-          qismlarini oz ichiga olish bilan bir qatorda tuzilgan. Tizim orqali
-          siz istalgan raqam egasini aniqlash imkoniyatiga ega bol.
-        </p>
+        <p>Loyiha hozirgi vaqtda amalga oshirilgan ilgor texnologiya orqali yurtimizdagi oma va boshqa tur vakillari va ularning turdosh qismlarini oz ichiga olish bilan bir qatorda tuzilgan. Tizim orqali siz istalgan raqam egasini aniqlash imkoniyatiga ega bol.</p>
         <p class="input-title">Ko'chani tanlang</p>
         <v-row class="d-flex align-baseline">
           <v-col>
@@ -90,19 +61,25 @@
 </template>
 
 <script>
-// export default {};
-//
-</script>
-<script>
 export default {
   data: () => ({
-    items: ["Foo", "Bar", "Fizz", "Buzz"]
+    items: ['Foo', 'Bar', 'Fizz', 'Buzz']
   })
-};
+}
 </script>
 
 <style scoped>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 /*start loyiha haqida qisqacha ma'lumot */
+.common-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
 .loyiha-haqida-container {
   padding: 30px;
@@ -111,7 +88,8 @@ export default {
   grid-template-columns: minmax(200px, 600px) minmax(200px, 600px);
   grid-template-rows: minmax(200px, 600px);
   align-items: center;
-  justify-content: space-between;
+  column-gap: 80px;
+  justify-content: center;
 }
 
 .loyiha-title {
@@ -156,16 +134,11 @@ export default {
   justify-content: center;
 }
 
-.phone_img {
-  max-width: 400px;
-  max-height: 500px;
-}
-
-@media (max-width: 760px) {
+@media (max-width: 830px) {
   .loyiha-haqida-container {
     grid-template-columns: minmax(200px, 500px);
     grid-template-rows: minmax(200px, 500px) minmax(200px, 650px);
-    padding: 20px;
+    padding: 40px;
   }
 }
 
@@ -181,8 +154,9 @@ export default {
   padding: 30px;
   padding-left: 70px;
   display: grid;
-  grid-template-columns: minmax(500px, 600px) minmax(400px, 600px);
-  justify-content: space-between;
+  grid-template-columns: minmax(500px, 900px) minmax(400px, 900px);
+  column-gap: 100px;
+  justify-content: center;
 }
 
 .s-shape {
@@ -191,11 +165,12 @@ export default {
 
 .statistika-right-container {
   display: grid;
-  grid-template-columns: minmax(50px, 180px) minmax(50px, 180px);
-  grid-template-rows: minmax(10px, 180px) minmax(10px, 180px);
+  grid-template-columns: minmax(50px, 280px) minmax(50px, 280px);
+  grid-template-rows: minmax(10px, 280px) minmax(10px, 280px);
   column-gap: 20px;
   row-gap: 20px;
   justify-content: center;
+  align-content: center;
 }
 
 .statistika-right-container > div {
@@ -242,7 +217,7 @@ export default {
   color: white;
 }
 
-@media (min-width: 930px) and (max-width: 1100px) {
+@media (min-width: 1001px) and (max-width: 1100px) {
   .statistika-right-container > div > p:nth-child(1) {
     font-size: 15px;
   }
@@ -257,7 +232,7 @@ export default {
   }
 }
 
-@media (max-width: 930px) {
+@media (max-width: 1000px) {
   .statistika-container {
     padding: 30px;
     grid-template-columns: minmax(200px, 600px);
@@ -267,5 +242,41 @@ export default {
   }
 }
 
+@media (min-width: 1500px) {
+  .loyiha-haqida-container {
+    grid-template-columns: minmax(200px, 900px) minmax(200px, 900px);
+    grid-template-rows: minmax(200px, 1000px);
+  }
+  .loyiha-title {
+    font-size: 40px;
+  }
+  .loyiha-haqida-container p {
+    font-size: 30px;
+  }
+
+  .icons {
+    font-size: 40px;
+  }
+  .list-items {
+    font-size: 30px;
+  }
+
+  .batafsil_btn {
+    font-size: 30px;
+    width: 300px;
+    height: 200px;
+  }
+
+  /* larger statitistika */
+  .stats-info > p:nth-child(1) {
+    font-size: 40px;
+  }
+  .stats-info > p:nth-child(3) {
+    font-size: 30px;
+  }
+  .input-title {
+    font-size: 30px;
+  }
+}
 /* end statistika part */
 </style>

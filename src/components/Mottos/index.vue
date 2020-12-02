@@ -1,6 +1,6 @@
 <template>
   <v-card class="templates  mt-10" color="white" tile flat max-width="1690">
-    <h2 class=" text-left">Ilova haqida</h2>
+    <h2 class="text-left">Ilova haqida</h2>
     <div
       style="width:100px; background: #34A696; border: 4px solid #34A696; border-radius: 10px"
     ></div>
@@ -13,7 +13,7 @@
       </p>
     </div>
     <div class="template-box_container">
-      <div class="rectangle"></div>
+      <div class="rectangle instruction-1"></div>
       <div class="text-container">
         <h2 class="text_layout">Template 1.</h2>
         <p>
@@ -34,10 +34,10 @@
           siz istalgan raqam egasini aniqlash imkoniyatiga ega bol
         </p>
       </div>
-      <div class="rectangle"></div>
+      <div class="rectangle instruction-2"></div>
     </div>
     <div class="template-box_container">
-      <div class="rectangle"></div>
+      <div class="rectangle instruction-3"></div>
       <div class="text-container">
         <h2 class="text_layout">Template 1.</h2>
         <p>
@@ -47,6 +47,18 @@
           siz istalgan raqam egasini aniqlash imkoniyatiga ega bol
         </p>
       </div>
+    </div>
+      <div class="template-box_container">
+      <div class="text-container">
+        <h2 class="text_layout">Template 1.</h2>
+        <p>
+          Loyiha hozirgi vaqtda amalga oshirilgan ilgor texnologiya orqali
+          yurtimizdagi oma va boshqa tur vakillari va ularning turdosh
+          qismlarini oz ichiga olish bilan bir qatorda tuzilgan. Tizim orqali
+          siz istalgan raqam egasini aniqlash imkoniyatiga ega bol
+        </p>
+      </div>
+       <div class="rectangle instruction-4"></div>
     </div>
 
     <!----------------- Biz bilan hamkorlar --------------->
@@ -176,13 +188,32 @@
   margin: auto 10%;
 }
 .rectangle {
-  height: 500px;
-  width: 25%;
-  background-color: #34a696;
+  height: 550px;
+  width: 35%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius:5%;
+}
+.text-left{
+  font-size: 30px;
+}
+.instruction-1{
+  background-image: url("../../assets/1.png");
+}
+.instruction-2{
+  background-image: url("../../assets/2.png");
+}
+.instruction-3{
+  background-image: url("../../assets/3.png");
+}
+.instruction-4{
+  background-image: url("../../assets/4.png");
 }
 .text-about {
   width: 70%;
   margin-top: 5%;
+  font-size: 24px;
 }
 .text-container {
   max-width: 60%;
@@ -234,6 +265,11 @@
   .v-btn__content {
     font-size: 10px;
   }
+  .text-about {
+    width: 100%;
+    margin-top: 3%;
+    font-size: 14px;
+}
 }
 @media screen and (max-width: 350px) {
   .text-container {

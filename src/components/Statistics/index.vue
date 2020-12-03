@@ -1,7 +1,7 @@
 <template>
   <v-card class="my-2" max-height="1200" color="white" tile flat>
     <!-- <h2 class="text-center">Mavluda Part</h2> -->
-    <v-row class="row-layout">
+    <v-row class="row-layout" justify="center">
       <v-col class="col-layout-1">
         <p class="p-title">Loyiha haqida qisqacha ma'lumot</p>
         <div class="shape"></div>

@@ -2,13 +2,11 @@
 
 $body-font-family: "Poppins", serif;
 html {
-  background-color: red;
+
 }
 .v-application {
   font-family: $body-font-family, "Poppins", serif !important;
-  body {
-    background-color: red;
-  }
+
   .title {
     // To pin point specific classes of some components
     font-family: "Poppins" !important;

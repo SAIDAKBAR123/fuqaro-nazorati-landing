@@ -60,6 +60,18 @@
       </div>
        <div class="rectangle instruction-4"></div>
     </div>
+      <div class="template-box_container">
+      <div class="rectangle instruction-5"></div>
+      <div class="text-container">
+        <h2 class="text_layout">Template 1.</h2>
+        <p>
+          Loyiha hozirgi vaqtda amalga oshirilgan ilgor texnologiya orqali
+          yurtimizdagi oma va boshqa tur vakillari va ularning turdosh
+          qismlarini oz ichiga olish bilan bir qatorda tuzilgan. Tizim orqali
+          siz istalgan raqam egasini aniqlash imkoniyatiga ega bol
+        </p>
+      </div>
+    </div>
 
     <!----------------- Biz bilan hamkorlar --------------->
     <!-- <div class="parters-block">
@@ -209,6 +221,9 @@
 }
 .instruction-4{
   background-image: url("../../assets/4.png");
+}
+.instruction-5{
+  background-image: url("../../assets/5.png");
 }
 .text-about {
   width: 70%;

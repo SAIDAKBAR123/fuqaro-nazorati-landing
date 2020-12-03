@@ -1,6 +1,6 @@
 <template>
-  <v-card class="templates" color="white" tile flat max-width="1690">
-    <h2 class=" text-left">Ilova haqida</h2>
+  <v-card class="templates  mt-10" color="white" tile flat max-width="1690">
+    <h2 class="text-left">Ilova haqida</h2>
     <div
       style="width:100px; background: #34A696; border: 4px solid #34A696; border-radius: 10px"
     ></div>
@@ -13,7 +13,7 @@
       </p>
     </div>
     <div class="template-box_container">
-      <div class="rectangle"></div>
+      <div class="rectangle instruction-1"></div>
       <div class="text-container">
         <h2 class="text_layout">Template 1.</h2>
         <p>
@@ -34,10 +34,34 @@
           siz istalgan raqam egasini aniqlash imkoniyatiga ega bol
         </p>
       </div>
-      <div class="rectangle"></div>
+      <div class="rectangle instruction-2"></div>
     </div>
     <div class="template-box_container">
-      <div class="rectangle"></div>
+      <div class="rectangle instruction-3"></div>
+      <div class="text-container">
+        <h2 class="text_layout">Template 1.</h2>
+        <p>
+          Loyiha hozirgi vaqtda amalga oshirilgan ilgor texnologiya orqali
+          yurtimizdagi oma va boshqa tur vakillari va ularning turdosh
+          qismlarini oz ichiga olish bilan bir qatorda tuzilgan. Tizim orqali
+          siz istalgan raqam egasini aniqlash imkoniyatiga ega bol
+        </p>
+      </div>
+    </div>
+      <div class="template-box_container">
+      <div class="text-container">
+        <h2 class="text_layout">Template 1.</h2>
+        <p>
+          Loyiha hozirgi vaqtda amalga oshirilgan ilgor texnologiya orqali
+          yurtimizdagi oma va boshqa tur vakillari va ularning turdosh
+          qismlarini oz ichiga olish bilan bir qatorda tuzilgan. Tizim orqali
+          siz istalgan raqam egasini aniqlash imkoniyatiga ega bol
+        </p>
+      </div>
+       <div class="rectangle instruction-4"></div>
+    </div>
+      <div class="template-box_container">
+      <div class="rectangle instruction-5"></div>
       <div class="text-container">
         <h2 class="text_layout">Template 1.</h2>
         <p>
@@ -50,7 +74,7 @@
     </div>
 
     <!----------------- Biz bilan hamkorlar --------------->
-    <div class="parters-block">
+    <!-- <div class="parters-block">
       <h2 class=" text-left">Biz bilan hamkorlar</h2>
       <div
         style="width:150px; background: #34A696; border: 4px solid #34A696; border-radius: 10px"
@@ -81,7 +105,8 @@
           </v-img>
         </div>
       </div>
-    </div>
+    </div> -->
+     <!----------------- Biz asosiy maqsadimiz --------------->
     <v-row color="#E2E2E2">
       <div class="goals-block" style="margin: 15% auto;">
         <h2 class=" text-center">Bizning asosiy maqsadimiz</h2>
@@ -100,13 +125,9 @@
               src="../../assets/Images/document.png"
             >
             </v-img>
-            <h4>Lorem isn sra</h4>
+            <h4>Fuqarolar faolligi</h4>
             <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin
-              professor at Hampden-Sydney College
-            </p>
+            Fuqaro Nazorati bu fuqarolar hayotida sodir bo’ladigan turli xil muammolarini bartaraf</p>
           </div>
           <div class="grid-item">
             <v-img
@@ -116,12 +137,9 @@
               src="../../assets/Images/police.png"
             >
             </v-img>
-            <h4>Lorem isn sra</h4>
+            <h4>Hokimiyat</h4>
             <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin
-              professor at Hampden-Sydney College
+              Tushib keladigan murojaatlarni hokimiyat va mutasaddi tashkilot tomonidan ko’rib chiqlib bartaraf etiladi
             </p>
           </div>
           <div class="grid-item">
@@ -132,12 +150,9 @@
               src="../../assets/Images/pdf-pic.png"
             >
             </v-img>
-            <h4>Lorem isn sra</h4>
+            <h4>Murojaatlar </h4>
             <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin
-              professor at Hampden-Sydney College
+              Fuqarolarga hokimiyat va mutasaddi tashkilotlardan muntazam ravishda murojaat bo’yicha hisobot onlayn rejimda beriladi.
             </p>
           </div>
         </div>
@@ -185,13 +200,35 @@
   margin: auto 10%;
 }
 .rectangle {
-  height: 500px;
-  width: 25%;
-  background-color: #34a696;
+  height: 550px;
+  width: 35%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius:5%;
+}
+.text-left{
+  font-size: 30px;
+}
+.instruction-1{
+  background-image: url("../../assets/1.png");
+}
+.instruction-2{
+  background-image: url("../../assets/2.png");
+}
+.instruction-3{
+  background-image: url("../../assets/3.png");
+}
+.instruction-4{
+  background-image: url("../../assets/4.png");
+}
+.instruction-5{
+  background-image: url("../../assets/5.png");
 }
 .text-about {
   width: 70%;
   margin-top: 5%;
+  font-size: 24px;
 }
 .text-container {
   max-width: 60%;
@@ -243,6 +280,11 @@
   .v-btn__content {
     font-size: 10px;
   }
+  .text-about {
+    width: 100%;
+    margin-top: 3%;
+    font-size: 14px;
+}
 }
 @media screen and (max-width: 350px) {
   .text-container {
@@ -310,6 +352,8 @@
   background-color: white;
   border-radius: 10px;
   padding: 10%;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .mail-input {
   display: flex;

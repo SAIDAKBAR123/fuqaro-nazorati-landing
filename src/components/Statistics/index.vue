@@ -1,33 +1,32 @@
 <template>
-  <div class="common-container ma-0 pa-0">
+  <div class="common-container ma-0 pa-0" id="about">
     <div class="loyiha-haqida-container">
       <div>
         <p class="loyiha-title">Loyiha haqida qisqacha ma'lumot</p>
         <div class="shape"></div>
-        <p>Loyiha hozirgi vaqtda amalga oshirilgan ilg'or texnologiya orqali yurtimizdagi oma va boshqa tur vakillari va ularning turdosh qismlarini o'z ichiga olish bilan bir qatorda tuzilgan. Tizim orqali siz istalgan raqam egasini aniqlash imkoniyatiga ega bolgan holatda alam qiladigan holat yuzasidan shikoyat.</p>
-
+        <p>Ushbu loyiha istalgan muammoni qisqa muddat ichida, sifatli bartaraf qilishga mo'ljallangan bo'lib, aholi yashash sharoitini yaxshilashga qaratilgan. Siz endi murojaatlaringizni osongina, online tarzda hech qanday qog'ozbozchiliklarsiz, uzoq navbatlarsiz yuborishingiz mumkin. Bizda hech bir fuqaro murojaati e'tiborsiz qolmaydi.</p>
         <div>
           <v-list class="list-items">
-            <v-list-item> <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon>Muammoni doimiy monitoringi </v-list-item>
-            <v-list-item> <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon>Hal etilmagan ustidan ariza </v-list-item>
-            <v-list-item> <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon>Doimiy muloqot </v-list-item>
-            <v-list-item> <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon>Bonuslar </v-list-item>
+            <v-list-item> <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon>Muammo ustida doimiy nazorat</v-list-item>
+            <v-list-item> <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon>Muammoni qisqa muddatda hal etilishi</v-list-item>
+            <v-list-item> <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon>Murojaatchi bilan doimiy muloqot</v-list-item>
+            <v-list-item> <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon>Muammoni sifatli barataf qilinishi</v-list-item>
           </v-list>
         </div>
-        <v-btn text class="batafsil_btn" x-large>Batafsil<v-icon class="icons">mdi-arrow-right</v-icon> </v-btn>
+        <v-btn rounded text class="batafsil_btn headline" large width="180px"><v-icon left class="icons display-1">mdi-google-play</v-icon> Play Store</v-btn>
       </div>
       <div class="loyiha-image-container">
-        <img src="../../assets/Images/phone.png" alt="phone image" class="phone_img" style="width:70%; height:70%'" />
+        <img src="../../assets/Images/saol.png" alt="phone image" class="phone_img" style="width:110%; height:110%'" />
       </div>
     </div>
 
     <!--Statistika -->
-    <div class="statistika-container">
+    <div class="statistika-container" id="statistic">
       <div class="stats-info">
         <p>Statistika</p>
         <div class="shape s-shape"></div>
-        <p>Loyiha hozirgi vaqtda amalga oshirilgan ilgor texnologiya orqali yurtimizdagi oma va boshqa tur vakillari va ularning turdosh qismlarini oz ichiga olish bilan bir qatorda tuzilgan. Tizim orqali siz istalgan raqam egasini aniqlash imkoniyatiga ega bol.</p>
-        <p class="input-title">Ko'chani tanlang</p>
+        <p>Bizda har bir murojaatlar ro'yhatga olinib, ular ustida statistik ishlar, jumladan, nechta muammolar hal qilinganligi yoki jarayondagi kabi har bir ma'lumotlar to'planadi va oddiy aholiga ushbu ma'lumotlar ochiqdan-ochiq ko'rsatib boriladi.</p>
+        <!--<p class="input-title">Ko'chani tanlang</p>
         <v-row class="d-flex align-baseline">
           <v-col>
             <v-select :items="items" solo></v-select>
@@ -36,6 +35,7 @@
             <v-btn text class="show-btn" height="48px">Ko'rsatish</v-btn>
           </v-col>
         </v-row>
+        -->
       </div>
 
       <div class="statistika-right-container">
@@ -102,7 +102,6 @@ export default {
 
 .batafsil_btn {
   margin-top: 40px;
-  width: 150px;
   height: 60px;
   padding: 15px 10px 15px 10px;
   background-color: rgba(52, 166, 150, 0.14);

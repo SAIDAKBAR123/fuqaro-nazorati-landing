@@ -9,11 +9,11 @@
     <a href="" class="toggle-button" @click.prevent="toggleButton()"><v-icon style="color: white">mdi-menu</v-icon></a>
     <div class="navbar-links" v-bind:class="{ active: isActive }">
       <ul>
-        <li><a href="">Texnik Tavsilot</a></li>
-        <li><a href="">Biz Haqimizda</a></li>
-        <li><a href="">Statistika</a></li>
-        <li><a href="">Hizmatlar</a></li>
-        <li><a href="">Aloqa</a></li>
+        <li><a href="#">Texnik Tavsilot</a></li>
+        <li><a href="#about">Biz Haqimizda</a></li>
+        <li><a href="#statistic">Statistika</a></li>
+        <li><a href="#">Hizmatlar</a></li>
+        <li><a href="#">Aloqa</a></li>
         <!--<li>
           <a href=""><v-icon style="color: rgb(43 129 197)">mdi-web</v-icon><v-icon style="color: rgb(43 129 197)">mdi-menu-down-outline</v-icon></a>
         </li>-->
@@ -103,7 +103,7 @@ export default {
   font-size: 0.875rem;
   font-weight: 500;
   letter-spacing: 0.0892857143em;
-  padding: 15px;
+  padding: 1.5rem;
   display: block;
   margin: 0;
 }

@@ -1,37 +1,37 @@
 <template>
-  <v-card class="templates  mt-10" color="white" tile flat max-width="1690">
-    <h2 class="text-left">Ilova haqida</h2>
+  <v-card class="templates mt-10" color="white" tile flat max-width="1690">
+    <h2 class="text-left">Qo'llanma</h2>
     <div
-      style="width:100px; background: #34A696; border: 4px solid #34A696; border-radius: 10px"
+      style="
+        width: 100px;
+        background: #34a696;
+        border: 4px solid #34a696;
+        border-radius: 10px;
+      "
     ></div>
-    <div>
+    <div id="tafsilot">
       <p class="text-about">
-        Loyiha hozirgi vaqtda amalga oshirilgan ilgor texnologiya orqali
-        yurtimizdagi oma va boshqa tur vakillari va ularning turdosh qismlarini
-        oz ichiga olish bilan bir qatorda tuzilgan. Tizim orqali siz istalgan
-        raqam egasini aniqlash imkoniyatiga ega bol
+        Ushbu qo'llanma sizga bizning ilovani ishga tushurishingizga yordam beradi. Ushbu
+        qo'llanmani bosqichma bosqish amalga oshiring!
       </p>
     </div>
     <div class="template-box_container">
       <div class="rectangle instruction-1"></div>
       <div class="text-container">
-        <h2 class="text_layout">Template 1.</h2>
-        <p>
-          Loyiha hozirgi vaqtda amalga oshirilgan ilgor texnologiya orqali
-          yurtimizdagi oma va boshqa tur vakillari va ularning turdosh
-          qismlarini oz ichiga olish bilan bir qatorda tuzilgan. Tizim orqali
-          siz istalgan raqam egasini aniqlash imkoniyatiga ega bol
+        <h2 class="text_layout">Ilovani ishga tushurish</h2>
+        <p class="pt-5">
+          Bizning ilovani yuklab olganingizda sizda quyidagi ko'rinishda sahifa paydo
+          bo'ladi. Ilovani ishga tushurish uchun <strong>Boshlash</strong> tugmasini
+          bosing!
         </p>
       </div>
     </div>
     <div class="template-box_container">
       <div class="text-container">
-        <h2 class="text_layout">Template 1.</h2>
-        <p>
-          Loyiha hozirgi vaqtda amalga oshirilgan ilgor texnologiya orqali
-          yurtimizdagi oma va boshqa tur vakillari va ularning turdosh
-          qismlarini oz ichiga olish bilan bir qatorda tuzilgan. Tizim orqali
-          siz istalgan raqam egasini aniqlash imkoniyatiga ega bol
+        <h2 class="text_layout">Ro'yhatdan o'tish</h2>
+        <p class="pt-5">
+          Keyingi sahifada siz ro'yhatdan o'tishingiz uchun quyidagi forma paydo bo'ladi.
+          Ushbu formani to'ldiring va <strong>Davom ettirish</strong> tugmasini bosing!
         </p>
       </div>
       <div class="rectangle instruction-2"></div>
@@ -39,36 +39,33 @@
     <div class="template-box_container">
       <div class="rectangle instruction-3"></div>
       <div class="text-container">
-        <h2 class="text_layout">Template 1.</h2>
-        <p>
-          Loyiha hozirgi vaqtda amalga oshirilgan ilgor texnologiya orqali
-          yurtimizdagi oma va boshqa tur vakillari va ularning turdosh
-          qismlarini oz ichiga olish bilan bir qatorda tuzilgan. Tizim orqali
-          siz istalgan raqam egasini aniqlash imkoniyatiga ega bol
+        <h2 class="text_layout">Asosiy sahifa</h2>
+        <p class="pt-5">
+          Ro'yhatdan o'tishingiz bilanoq sizda asosiy sahifa paydo bo'ladi. Bu asosiy
+          menyu deyilib, siz o'zingiz yuborgan barcha murojaatlaringizni ko'rishingiz
+          mumkin. Agar murojaat yubormoqchi bo'lsangiz
+          <strong>Murojaat yo'llash</strong> tugmasini bosing!
         </p>
       </div>
     </div>
-      <div class="template-box_container">
+    <div class="template-box_container">
       <div class="text-container">
-        <h2 class="text_layout">Template 1.</h2>
-        <p>
-          Loyiha hozirgi vaqtda amalga oshirilgan ilgor texnologiya orqali
-          yurtimizdagi oma va boshqa tur vakillari va ularning turdosh
-          qismlarini oz ichiga olish bilan bir qatorda tuzilgan. Tizim orqali
-          siz istalgan raqam egasini aniqlash imkoniyatiga ega bol
+        <h2 class="text_layout">Murojaat yuborish</h2>
+        <p class="pt-5">
+          Murojaat yuborishingiz uchun muammo haqida qisqacha izoh qoldiring, kerakli
+          manzilni tanlab, muammo suratini yuboring!
         </p>
       </div>
-       <div class="rectangle instruction-4"></div>
+      <div class="rectangle instruction-4"></div>
     </div>
-      <div class="template-box_container">
+    <div class="template-box_container">
       <div class="rectangle instruction-5"></div>
       <div class="text-container">
-        <h2 class="text_layout">Template 1.</h2>
-        <p>
-          Loyiha hozirgi vaqtda amalga oshirilgan ilgor texnologiya orqali
-          yurtimizdagi oma va boshqa tur vakillari va ularning turdosh
-          qismlarini oz ichiga olish bilan bir qatorda tuzilgan. Tizim orqali
-          siz istalgan raqam egasini aniqlash imkoniyatiga ega bol
+        <h2 class="text_layout">Murojaatingizga javob kelishi</h2>
+        <p class="pt-5">
+          Murojaatingiz kerakli tashkilotga yetib borgach, sizga mutasaddi tashkilotlar
+          tomonidan habar keladi. Siz to'gridan to'gri mutasaddi tashkilotalar bilan
+          aloqada bo'lib, muammo hal bo'lish jarayonini kuzatib borasiz!
         </p>
       </div>
     </div>
@@ -106,15 +103,13 @@
         </div>
       </div>
     </div> -->
-     <!----------------- Biz asosiy maqsadimiz --------------->
+    <!----------------- Biz asosiy maqsadimiz --------------->
     <v-row color="#E2E2E2">
-      <div class="goals-block" style="margin: 15% auto;">
-        <h2 class=" text-center">Bizning asosiy maqsadimiz</h2>
-        <p class=" text-center">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden-Sydney College
+      <div class="goals-block" style="margin: 15% auto">
+        <h2 class="text-center" id="hizmat">Bizning asosiy maqsadimiz</h2>
+        <p class="text-center headline">
+          Bizning asosiy maqsadimiz xalqimiz farovon yashashi, yurtimiz rivojlanishiga
+          hissa qo'shish, aholini qiynayotgan har qanday muammoni bartaraf qilishdir!
         </p>
         <div class="grid-container">
           <div class="grid-item">
@@ -127,7 +122,9 @@
             </v-img>
             <h4>Fuqarolar faolligi</h4>
             <p>
-            Fuqaro Nazorati bu fuqarolar hayotida sodir bo’ladigan turli xil muammolarini bartaraf</p>
+              Fuqaro Nazorati bu fuqarolar hayotida sodir bo’ladigan turli xil
+              muammolarini bartaraf qilishga mo'ljallangan
+            </p>
           </div>
           <div class="grid-item">
             <v-img
@@ -139,7 +136,8 @@
             </v-img>
             <h4>Hokimiyat</h4>
             <p>
-              Tushib keladigan murojaatlarni hokimiyat va mutasaddi tashkilot tomonidan ko’rib chiqlib bartaraf etiladi
+              Bizga yuborilgan har bir murojaat hokimiyat va mutasaddi tashkilot tomonidan
+              ko’rib chiqiladi va bartaraf qilinadi
             </p>
           </div>
           <div class="grid-item">
@@ -150,17 +148,18 @@
               src="../../assets/Images/pdf-pic.png"
             >
             </v-img>
-            <h4>Murojaatlar </h4>
+            <h4>Murojaatlar</h4>
             <p>
-              Fuqarolarga hokimiyat va mutasaddi tashkilotlardan muntazam ravishda murojaat bo’yicha hisobot onlayn rejimda beriladi.
+              Fuqarolarga hokimiyat va mutasaddi tashkilotlardan muntazam ravishda
+              murojaat bo’yicha hisobotlar onlayn tarzda yekazib boriladi.
             </p>
           </div>
         </div>
         <!----------------- Bizning asosiy maqsadimiz --------------->
-        <div class="mail-block">
+        <div class="mail-block" id="aloqa">
           <h1>
-            Oxirgi yangiliklardan behabar qolmaslik uchun quyidagi email
-            formasini toldiring va biz bilan birga bo'ling!
+            Oxirgi yangiliklardan behabar qolmaslik uchun quyidagi email formasini
+            toldiring va biz bilan birga bo'ling!
           </h1>
           <div class="mail-input">
             <!--   <input v-model="email" label="Email" placeholder="Email kiriting" class="input-field"> -->
@@ -175,13 +174,7 @@
             Jo'natish
           </v-btn> -->
 
-            <v-btn
-              color="primary"
-              elevation="3"
-              depressed
-              height="50"
-              width="25%"
-            >
+            <v-btn color="primary" elevation="3" depressed height="50" width="25%">
               Jo'natish
             </v-btn>
           </div>
@@ -205,25 +198,25 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius:5%;
+  border-radius: 5%;
 }
-.text-left{
+.text-left {
   font-size: 30px;
 }
-.instruction-1{
+.instruction-1 {
   background-image: url("../../assets/1.png");
 }
-.instruction-2{
+.instruction-2 {
   background-image: url("../../assets/2.png");
 }
-.instruction-3{
+.instruction-3 {
   background-image: url("../../assets/3.png");
 }
-.instruction-4{
-  background-image: url("../../assets/4.png");
-}
-.instruction-5{
+.instruction-4 {
   background-image: url("../../assets/5.png");
+}
+.instruction-5 {
+  background-image: url("../../assets/4.png");
 }
 .text-about {
   width: 70%;
@@ -284,7 +277,7 @@
     width: 100%;
     margin-top: 3%;
     font-size: 14px;
-}
+  }
 }
 @media screen and (max-width: 350px) {
   .text-container {

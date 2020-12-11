@@ -197,7 +197,7 @@
 /* Ilova Haqida */
 
 .templates {
-  margin: auto 10%;
+  margin: auto 10% !important;
 }
 .rectangle {
   height: 550px;

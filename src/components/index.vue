@@ -1,16 +1,16 @@
 <template>
-  <div>
+  <div style="width=100%">
     <v-row no-gutters justify="center">
       <v-col cols="12" class="my-0">
         <Toolbar />
       </v-col>
-      <v-col  cols="12"  class="my-0">
+      <v-col cols="12" class="my-0">
         <Landing />
       </v-col>
-      <v-col cols="12"  class="my-2">
+      <v-col cols="12" class="my-2">
         <Statistics />
       </v-col>
-       <v-col cols="12"  class="my-2">
+      <v-col cols="12" class="my-2">
         <Mottos />
       </v-col>
     </v-row>
@@ -32,5 +32,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 </style>

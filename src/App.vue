@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app width="100%">
     <v-main>
       <router-view></router-view>
     </v-main>
@@ -15,6 +15,7 @@ export default {
     Footer
   },
   created () {
+    document.title = 'Fuqaro-nazorati'
     this.$vuetify.theme.themes.light.primary = '#34A696'
   },
   data: () => ({
@@ -22,3 +23,11 @@ export default {
   })
 }
 </script>
+
+<style scoped>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+</style>

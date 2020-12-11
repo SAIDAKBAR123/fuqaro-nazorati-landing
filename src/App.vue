@@ -15,6 +15,7 @@ export default {
     Footer
   },
   created () {
+    document.title = 'Fuqaro-nazorati'
     this.$vuetify.theme.themes.light.primary = '#34A696'
   },
   data: () => ({

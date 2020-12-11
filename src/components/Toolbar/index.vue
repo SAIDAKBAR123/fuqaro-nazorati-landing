@@ -6,21 +6,27 @@
         Nazorati
       </p>
     </div>
-    <a href="" class="toggle-button" @click.prevent="toggleButton()"><v-icon style="color: white">mdi-menu</v-icon></a>
+    <a href="" class="toggle-button" @click.prevent="toggleButton()"
+      ><v-icon style="color: white">mdi-menu</v-icon></a
+    >
     <div class="navbar-links" v-bind:class="{ active: isActive }">
       <ul>
-        <li><a href="#">Texnik Tavsilot</a></li>
-        <li><a href="#about">Biz Haqimizda</a></li>
-        <li><a href="#statistic">Statistika</a></li>
-        <li><a href="#">Hizmatlar</a></li>
-        <li><a href="#">Aloqa</a></li>
+        <li>
+          <a href="#tafsilot" @click.prevent="navbarLinkClick()">Texnik Tavsilot</a>
+        </li>
+        <li><a href="#about" @click.prevent="navbarLinkClick()">Biz Haqimizda</a></li>
+        <li><a href="#statistic" @click.prevent="navbarLinkClick()">Statistika</a></li>
+        <li><a href="#hizmat" @click.prevent="navbarLinkClick()">Hizmatlar</a></li>
+        <li><a href="#aloqa" @click.prevent="navbarLinkClick()">Aloqa</a></li>
         <!--<li>
           <a href=""><v-icon style="color: rgb(43 129 197)">mdi-web</v-icon><v-icon style="color: rgb(43 129 197)">mdi-menu-down-outline</v-icon></a>
         </li>-->
       </ul>
     </div>
     <div class="navbar-button" :class="{ active: isActive }">
-      <v-btn color="#34a696" class="white--text">Kirish</v-btn>
+      <a href="https://portal.fuqaro-nazorati.uz/" target="_blank">
+        <v-btn color="#34a696" class="white--text">Kirish</v-btn></a
+      >
     </div>
   </nav>
 </template>
@@ -36,13 +42,16 @@ export default {
   },
 
   methods: {
-    setLocale (locale) {
-      this.$i18n.locale = locale
-      localStorage.setItem('locale', locale)
-    },
-
     toggleButton () {
       this.isActive = !this.isActive
+    },
+
+    navbarLinkClick () {
+      const targetId = event.currentTarget.getAttribute('href')
+      document.querySelector(targetId).scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      })
     }
   }
 }

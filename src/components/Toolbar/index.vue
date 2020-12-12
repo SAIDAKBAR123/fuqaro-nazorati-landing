@@ -3,7 +3,7 @@
     <div class="logo">
       <p>
         Fuqaro <br />
-        Nazorati
+         Nazorati
       </p>
     </div>
     <a href="" class="toggle-button" @click.prevent="toggleButton()"

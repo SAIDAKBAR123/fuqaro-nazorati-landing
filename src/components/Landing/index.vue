@@ -1,30 +1,78 @@
 <template>
   <div class="header-container">
     <div class="header-title">
-      <div style="height: 170px; width: 10px; background: white; border: 6px solid white; border-radius: 10px" class="header-decor"></div>
+      <div
+        style="
+          height: 170px;
+          width: 10px;
+          background: white;
+          border: 6px solid white;
+          border-radius: 10px;
+        "
+        class="header-decor"
+      ></div>
       <div class="header-title-info">
         <h1 class="text_layout">Fuqaro Nazorati sahifasiga xush kelibsiz</h1>
         <span class="text_layout_small font-weight-light"
           >Endilikda siz o'z muammo va takliflaringizni <br />
           onlayn tarzda ariza berish orqali amalga oshirishingiz mumkin.
         </span>
-        <v-btn rounded color="primary" x-large width="200px"><v-icon left>mdi-google-play</v-icon>Play Store</v-btn>
+        <v-btn rounded color="primary" x-large width="200px"
+          ><v-icon left>mdi-google-play</v-icon>Play Store</v-btn
+        >
       </div>
     </div>
 
     <div class="header-chat">
-      <img src="../../assets/banner/photo_2020-12-01_13-30-27.jpg" alt="Amira-picture" width="190" height="180" class="pic amira-pic" />
-      <img src="../../assets/banner/photo_2020-12-01_13-30-32.jpg" alt="Anora-picture" width="150" height="140" class="pic anora-pic" />
-      <img src="../../assets/banner/sb.png" alt="Risolat-picture" width="150" height="140" class="pic risolat-pic" />
-      <img src="../../assets/banner/photo_2020-12-01_13-30-00.jpg" alt="Kamron-picture" width="150" height="140" class="pic kamron-pic" />
-      <img src="../../assets/banner/photo_2020-12-01_13-30-21.jpg" alt="sb-picture" width="90" height="90" class="pic sb-pic" />
+      <img
+        src="../../assets/banner/photo_2020-12-01_13-30-27.jpg"
+        alt="Amira-picture"
+        width="190"
+        height="180"
+        class="pic amira-pic"
+      />
+      <img
+        src="../../assets/banner/photo_2020-12-01_13-30-32.jpg"
+        alt="Anora-picture"
+        width="150"
+        height="140"
+        class="pic anora-pic"
+      />
+      <img
+        src="../../assets/banner/sb.png"
+        alt="Risolat-picture"
+        width="150"
+        height="140"
+        class="pic risolat-pic"
+      />
+      <img
+        src="../../assets/banner/photo_2020-12-01_13-30-00.jpg"
+        alt="Kamron-picture"
+        width="150"
+        height="140"
+        class="pic kamron-pic"
+      />
+      <img
+        src="../../assets/banner/photo_2020-12-01_13-30-21.jpg"
+        alt="sb-picture"
+        width="90"
+        height="90"
+        class="pic sb-pic"
+      />
 
       <div class="savol-1">
-        <p>Assalomu alaykum, hurmatli tashkilot hodimlari hozirgi muammoni qay holatda hal qilib bera olasizlar? Qancha vaqt ichida hal qilib bera olasizlar?</p>
+        <p>
+          Assalomu alaykum, hurmatli tashkilot hodimlari hozirgi muammoni qay
+          holatda hal qilib bera olasizlar? Qancha vaqt ichida hal qilib bera
+          olasizlar?
+        </p>
         <div class="triangle-1"></div>
       </div>
       <div class="savol-2">
-        <p>Assalomu alaykum, hurmatli tashkilot hodimlari hozirgi muammoni qay holatda hal qilib bera olasizlar?</p>
+        <p>
+          Assalomu alaykum, hurmatli tashkilot hodimlari hozirgi muammoni qay
+          holatda hal qilib bera olasizlar?
+        </p>
         <div class="triangle-2"></div>
       </div>
     </div>
@@ -67,6 +115,7 @@ export default {
   grid-template-columns: auto auto;
   column-gap: 15px;
   padding: 20px;
+  padding-right: 0;
   margin-left: 70px;
 }
 
@@ -81,6 +130,17 @@ export default {
   top: 5px;
   right: 12px;
 }
+
+.text_layout {
+  color: white;
+  font-size: 45px;
+}
+.text_layout_small {
+  font-size: 25px;
+  color: white;
+  margin-bottom: 5px;
+}
+
 /* banner pictures */
 .amira-pic {
   position: absolute;
@@ -182,8 +242,8 @@ export default {
     right: 30px;
   }
   .risolat-pic {
-   top: 561px;
-   right: 446px;
+    top: 561px;
+    right: 446px;
   }
 
   .kamron-pic {
@@ -205,7 +265,7 @@ export default {
 }
 
 @media (min-width: 1280px) and (max-width: 1399px) {
-   .header-chat {
+  .header-chat {
     top: -3px;
     right: 6px;
   }
@@ -232,9 +292,9 @@ export default {
 }
 
 @media (min-width: 1132px) and (max-width: 1279px) {
-   .header-chat {
+  .header-chat {
     top: -79px;
-    right: 4px
+    right: 4px;
   }
 
   .risolat-pic {
@@ -308,12 +368,12 @@ export default {
   }
 }
 
-.text_layout {
-  color: white;
-  font-size: 45px;
-}
-.text_layout_small {
-  font-size: 25px;
-  color: white;
+@media (max-width: 360px) {
+  .text_layout {
+    font-size: 30px;
+  }
+  .text_layout_small {
+    font-size: 18px;
+  }
 }
 </style>

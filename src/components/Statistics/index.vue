@@ -41,7 +41,7 @@
           src="../../assets/Images/saol.png"
           alt="phone image"
           class="phone_img"
-          style="width:110%; height:110%'"
+          style="width:100%; height:100%'"
         />
       </div>
     </div>
@@ -167,8 +167,10 @@ export default {
 @media (max-width: 830px) {
   .loyiha-haqida-container {
     grid-template-columns: minmax(200px, 500px);
-    grid-template-rows: minmax(200px, 500px) minmax(200px, 650px);
+    grid-template-rows: minmax(200px, 500px) minmax(200px, 450px);
+    row-gap: 10px;
     padding: 40px;
+    padding-bottom: 0;
   }
 }
 
@@ -185,7 +187,7 @@ export default {
   padding-left: 70px;
   display: grid;
   grid-template-columns: minmax(500px, 900px) minmax(400px, 900px);
-  column-gap: 100px;
+  column-gap: 80px;
   justify-content: center;
 }
 

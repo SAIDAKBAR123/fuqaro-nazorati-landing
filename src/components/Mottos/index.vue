@@ -18,8 +18,8 @@
     <div class="template-box_container">
       <div class="rectangle instruction-1"></div>
       <div class="text-container">
-        <h2 class="text_layout">Ilovani ishga tushurish</h2>
-        <p class="pt-5">
+        <h2 class="text_layout">1. Ilovani ishga tushurish</h2>
+        <p class="pt-5 text-haqida-p">
           Bizning ilovani yuklab olganingizda sizda quyidagi ko'rinishda sahifa
           paydo bo'ladi. Ilovani ishga tushurish uchun
           <strong>Boshlash</strong> tugmasini bosing!
@@ -28,8 +28,8 @@
     </div>
     <div class="template-box_container">
       <div class="text-container">
-        <h2 class="text_layout">Ro'yhatdan o'tish</h2>
-        <p class="pt-5">
+        <h2 class="text_layout">2. Ro'yhatdan o'tish</h2>
+        <p class="pt-5 text-haqida-p">
           Keyingi sahifada siz ro'yhatdan o'tishingiz uchun quyidagi forma paydo
           bo'ladi. Ushbu formani to'ldiring va
           <strong>Davom ettirish</strong> tugmasini bosing!
@@ -40,8 +40,8 @@
     <div class="template-box_container">
       <div class="rectangle instruction-3"></div>
       <div class="text-container">
-        <h2 class="text_layout">Asosiy sahifa</h2>
-        <p class="pt-5">
+        <h2 class="text_layout">3. Asosiy sahifa</h2>
+        <p class="pt-5 text-haqida-p">
           Ro'yhatdan o'tishingiz bilanoq sizda asosiy sahifa paydo bo'ladi. Bu
           asosiy menyu deyilib, siz o'zingiz yuborgan barcha murojaatlaringizni
           ko'rishingiz mumkin. Agar murojaat yubormoqchi bo'lsangiz
@@ -51,8 +51,8 @@
     </div>
     <div class="template-box_container">
       <div class="text-container">
-        <h2 class="text_layout">Murojaat yuborish</h2>
-        <p class="pt-5">
+        <h2 class="text_layout">4. Murojaat yuborish</h2>
+        <p class="pt-5 text-haqida-p">
           Murojaat yuborishingiz uchun muammo haqida qisqacha izoh qoldiring,
           kerakli manzilni tanlab, muammo suratini yuboring!
         </p>
@@ -62,8 +62,8 @@
     <div class="template-box_container">
       <div class="rectangle instruction-5"></div>
       <div class="text-container">
-        <h2 class="text_layout">Murojaatingizga javob kelishi</h2>
-        <p class="pt-5">
+        <h2 class="text_layout">5. Murojaatingizga javob kelishi</h2>
+        <p class="pt-5 text-haqida-p">
           Murojaatingiz kerakli tashkilotga yetib borgach, sizga mutasaddi
           tashkilotlar tomonidan habar keladi. Siz to'gridan to'gri mutasaddi
           tashkilotalar bilan aloqada bo'lib, muammo hal bo'lish jarayonini
@@ -108,7 +108,9 @@
     <!----------------- Biz asosiy maqsadimiz --------------->
     <v-row color="#E2E2E2">
       <div class="goals-block" style="margin: 0 auto 15%">
-        <h2 class="text-center" id="hizmat">Bizning asosiy maqsadimiz</h2>
+        <h2 class="text-center" style="font-size: 30px" id="hizmat">
+          Bizning asosiy maqsadimiz
+        </h2>
         <p class="text-center headline">
           Bizning asosiy maqsadimiz xalqimiz farovon yashashi, yurtimiz
           rivojlanishiga hissa qo'shish, aholini qiynayotgan har qanday muammoni
@@ -202,6 +204,10 @@
   font-size: 30px;
 }
 
+.text-haqida-p {
+  font-size: 24px;
+}
+
 .templates {
   margin: auto 10% !important;
 }
@@ -270,6 +276,11 @@
   .text-center {
     font-size: 18px;
   }
+
+  .text-haqida-p {
+    font-size: 16px;
+  }
+
   .rectangle {
     height: 300px;
   }

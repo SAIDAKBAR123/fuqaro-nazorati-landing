@@ -4,19 +4,45 @@
       <div>
         <p class="loyiha-title">Loyiha haqida qisqacha ma'lumot</p>
         <div class="shape"></div>
-        <p>Ushbu loyiha istalgan muammoni qisqa muddat ichida, sifatli bartaraf qilishga mo'ljallangan bo'lib, aholi yashash sharoitini yaxshilashga qaratilgan. Siz endi murojaatlaringizni osongina, online tarzda hech qanday qog'ozbozchiliklarsiz, uzoq navbatlarsiz yuborishingiz mumkin. Bizda hech bir fuqaro murojaati e'tiborsiz qolmaydi.</p>
+        <p>
+          Ushbu loyiha istalgan muammoni qisqa muddat ichida, sifatli bartaraf
+          qilishga mo'ljallangan bo'lib, aholi yashash sharoitini yaxshilashga
+          qaratilgan. Siz endi murojaatlaringizni osongina, online tarzda hech
+          qanday qog'ozbozchiliklarsiz, uzoq navbatlarsiz yuborishingiz mumkin.
+          Bizda hech bir fuqaro murojaati e'tiborsiz qolmaydi.
+        </p>
         <div>
           <v-list class="list-items">
-            <v-list-item> <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon>Muammo ustida doimiy nazorat</v-list-item>
-            <v-list-item> <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon>Muammoni qisqa muddatda hal etilishi</v-list-item>
-            <v-list-item> <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon>Murojaatchi bilan doimiy muloqot</v-list-item>
-            <v-list-item> <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon>Muammoni sifatli barataf qilinishi</v-list-item>
+            <v-list-item>
+              <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon
+              >Muammo ustida doimiy nazorat</v-list-item
+            >
+            <v-list-item>
+              <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon
+              >Muammoni qisqa muddatda hal etilishi</v-list-item
+            >
+            <v-list-item>
+              <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon
+              >Murojaatchi bilan doimiy muloqot</v-list-item
+            >
+            <v-list-item>
+              <v-icon class="icons">mdi-checkbox-marked-circle-outline</v-icon
+              >Muammoni sifatli barataf qilinishi</v-list-item
+            >
           </v-list>
         </div>
-        <v-btn rounded text class="batafsil_btn headline" large width="180px"><v-icon left class="icons display-1">mdi-google-play</v-icon> Play Store</v-btn>
+        <v-btn rounded text class="batafsil_btn body-1" width="150px"
+          ><v-icon left medium class="icons">mdi-google-play</v-icon> Play
+          Store</v-btn
+        >
       </div>
       <div class="loyiha-image-container">
-        <img src="../../assets/Images/saol.png" alt="phone image" class="phone_img" style="width:110%; height:110%'" />
+        <img
+          src="../../assets/Images/saol.png"
+          alt="phone image"
+          class="phone_img"
+          style="width:110%; height:110%'"
+        />
       </div>
     </div>
 
@@ -25,7 +51,12 @@
       <div class="stats-info">
         <p>Statistika</p>
         <div class="shape s-shape"></div>
-        <p>Bizda har bir murojaatlar ro'yhatga olinib, ular ustida statistik ishlar, jumladan, nechta muammolar hal qilinganligi yoki jarayondagi kabi har bir ma'lumotlar to'planadi va oddiy aholiga ushbu ma'lumotlar ochiqdan-ochiq ko'rsatib boriladi.</p>
+        <p>
+          Bizda har bir murojaatlar ro'yhatga olinib, ular ustida statistik
+          ishlar, jumladan, nechta muammolar hal qilinganligi yoki jarayondagi
+          kabi har bir ma'lumotlar to'planadi va oddiy aholiga ushbu ma'lumotlar
+          ochiqdan-ochiq ko'rsatib boriladi.
+        </p>
         <!--<p class="input-title">Ko'chani tanlang</p>
         <v-row class="d-flex align-baseline">
           <v-col>
@@ -106,7 +137,7 @@ export default {
   padding: 15px 10px 15px 10px;
   background-color: rgba(52, 166, 150, 0.14);
   text-align: center;
-  color: #34a696;
+  color: #34a696 !important;
   text-transform: capitalize;
 }
 

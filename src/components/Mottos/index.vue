@@ -11,8 +11,8 @@
     ></div>
     <div id="tafsilot">
       <p class="text-about">
-        Ushbu qo'llanma sizga bizning ilovani ishga tushurishingizga yordam beradi. Ushbu
-        qo'llanmani bosqichma bosqish amalga oshiring!
+        Ushbu qo'llanma sizga bizning ilovani ishga tushurishingizga yordam
+        beradi. Ushbu qo'llanmani bosqichma bosqish amalga oshiring!
       </p>
     </div>
     <div class="template-box_container">
@@ -20,9 +20,9 @@
       <div class="text-container">
         <h2 class="text_layout">Ilovani ishga tushurish</h2>
         <p class="pt-5">
-          Bizning ilovani yuklab olganingizda sizda quyidagi ko'rinishda sahifa paydo
-          bo'ladi. Ilovani ishga tushurish uchun <strong>Boshlash</strong> tugmasini
-          bosing!
+          Bizning ilovani yuklab olganingizda sizda quyidagi ko'rinishda sahifa
+          paydo bo'ladi. Ilovani ishga tushurish uchun
+          <strong>Boshlash</strong> tugmasini bosing!
         </p>
       </div>
     </div>
@@ -30,8 +30,9 @@
       <div class="text-container">
         <h2 class="text_layout">Ro'yhatdan o'tish</h2>
         <p class="pt-5">
-          Keyingi sahifada siz ro'yhatdan o'tishingiz uchun quyidagi forma paydo bo'ladi.
-          Ushbu formani to'ldiring va <strong>Davom ettirish</strong> tugmasini bosing!
+          Keyingi sahifada siz ro'yhatdan o'tishingiz uchun quyidagi forma paydo
+          bo'ladi. Ushbu formani to'ldiring va
+          <strong>Davom ettirish</strong> tugmasini bosing!
         </p>
       </div>
       <div class="rectangle instruction-2"></div>
@@ -41,9 +42,9 @@
       <div class="text-container">
         <h2 class="text_layout">Asosiy sahifa</h2>
         <p class="pt-5">
-          Ro'yhatdan o'tishingiz bilanoq sizda asosiy sahifa paydo bo'ladi. Bu asosiy
-          menyu deyilib, siz o'zingiz yuborgan barcha murojaatlaringizni ko'rishingiz
-          mumkin. Agar murojaat yubormoqchi bo'lsangiz
+          Ro'yhatdan o'tishingiz bilanoq sizda asosiy sahifa paydo bo'ladi. Bu
+          asosiy menyu deyilib, siz o'zingiz yuborgan barcha murojaatlaringizni
+          ko'rishingiz mumkin. Agar murojaat yubormoqchi bo'lsangiz
           <strong>Murojaat yo'llash</strong> tugmasini bosing!
         </p>
       </div>
@@ -52,8 +53,8 @@
       <div class="text-container">
         <h2 class="text_layout">Murojaat yuborish</h2>
         <p class="pt-5">
-          Murojaat yuborishingiz uchun muammo haqida qisqacha izoh qoldiring, kerakli
-          manzilni tanlab, muammo suratini yuboring!
+          Murojaat yuborishingiz uchun muammo haqida qisqacha izoh qoldiring,
+          kerakli manzilni tanlab, muammo suratini yuboring!
         </p>
       </div>
       <div class="rectangle instruction-4"></div>
@@ -63,9 +64,10 @@
       <div class="text-container">
         <h2 class="text_layout">Murojaatingizga javob kelishi</h2>
         <p class="pt-5">
-          Murojaatingiz kerakli tashkilotga yetib borgach, sizga mutasaddi tashkilotlar
-          tomonidan habar keladi. Siz to'gridan to'gri mutasaddi tashkilotalar bilan
-          aloqada bo'lib, muammo hal bo'lish jarayonini kuzatib borasiz!
+          Murojaatingiz kerakli tashkilotga yetib borgach, sizga mutasaddi
+          tashkilotlar tomonidan habar keladi. Siz to'gridan to'gri mutasaddi
+          tashkilotalar bilan aloqada bo'lib, muammo hal bo'lish jarayonini
+          kuzatib borasiz!
         </p>
       </div>
     </div>
@@ -108,8 +110,9 @@
       <div class="goals-block" style="margin: 15% auto">
         <h2 class="text-center" id="hizmat">Bizning asosiy maqsadimiz</h2>
         <p class="text-center headline">
-          Bizning asosiy maqsadimiz xalqimiz farovon yashashi, yurtimiz rivojlanishiga
-          hissa qo'shish, aholini qiynayotgan har qanday muammoni bartaraf qilishdir!
+          Bizning asosiy maqsadimiz xalqimiz farovon yashashi, yurtimiz
+          rivojlanishiga hissa qo'shish, aholini qiynayotgan har qanday muammoni
+          bartaraf qilishdir!
         </p>
         <div class="grid-container">
           <div class="grid-item">
@@ -136,8 +139,8 @@
             </v-img>
             <h4>Hokimiyat</h4>
             <p>
-              Bizga yuborilgan har bir murojaat hokimiyat va mutasaddi tashkilot tomonidan
-              ko’rib chiqiladi va bartaraf qilinadi
+              Bizga yuborilgan har bir murojaat hokimiyat va mutasaddi tashkilot
+              tomonidan ko’rib chiqiladi va bartaraf qilinadi
             </p>
           </div>
           <div class="grid-item">
@@ -150,16 +153,17 @@
             </v-img>
             <h4>Murojaatlar</h4>
             <p>
-              Fuqarolarga hokimiyat va mutasaddi tashkilotlardan muntazam ravishda
-              murojaat bo’yicha hisobotlar onlayn tarzda yekazib boriladi.
+              Fuqarolarga hokimiyat va mutasaddi tashkilotlardan muntazam
+              ravishda murojaat bo’yicha hisobotlar onlayn tarzda yekazib
+              boriladi.
             </p>
           </div>
         </div>
         <!----------------- Bizning asosiy maqsadimiz --------------->
         <div class="mail-block" id="aloqa">
           <h1>
-            Oxirgi yangiliklardan behabar qolmaslik uchun quyidagi email formasini
-            toldiring va biz bilan birga bo'ling!
+            Oxirgi yangiliklardan behabar qolmaslik uchun quyidagi email
+            formasini toldiring va biz bilan birga bo'ling!
           </h1>
           <div class="mail-input">
             <!--   <input v-model="email" label="Email" placeholder="Email kiriting" class="input-field"> -->
@@ -174,7 +178,13 @@
             Jo'natish
           </v-btn> -->
 
-            <v-btn color="primary" elevation="3" depressed height="50" width="25%">
+            <v-btn
+              color="primary"
+              elevation="3"
+              depressed
+              height="50"
+              width="25%"
+            >
               Jo'natish
             </v-btn>
           </div>
@@ -188,6 +198,9 @@
 
 <style>
 /* Ilova Haqida */
+.text_layout {
+  font-size: 30px;
+}
 
 .templates {
   margin: auto 10% !important;

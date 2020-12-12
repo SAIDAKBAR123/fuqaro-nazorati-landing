@@ -107,7 +107,7 @@
     </div> -->
     <!----------------- Biz asosiy maqsadimiz --------------->
     <v-row color="#E2E2E2">
-      <div class="goals-block" style="margin: 15% auto">
+      <div class="goals-block" style="margin: 0 auto 15%">
         <h2 class="text-center" id="hizmat">Bizning asosiy maqsadimiz</h2>
         <p class="text-center headline">
           Bizning asosiy maqsadimiz xalqimiz farovon yashashi, yurtimiz

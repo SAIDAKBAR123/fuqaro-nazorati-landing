@@ -12,14 +12,18 @@
         class="header-decor"
       ></div>
       <div class="header-title-info">
-        <h1 class="text_layout">Fuqaro Nazorati sahifasiga xush kelibsiz</h1>
-        <span class="text_layout_small font-weight-light"
+        <h1 class="text_layout pr-2">
+          Fuqaro Nazorati sahifasiga xush kelibsiz
+        </h1>
+        <span class="text_layout_small font-weight-light pr-1"
           >Endilikda siz o'z muammo va takliflaringizni <br />
           onlayn tarzda ariza berish orqali amalga oshirishingiz mumkin.
         </span>
-        <v-btn rounded color="primary" x-large width="200px"
-          ><v-icon left>mdi-google-play</v-icon>Play Store</v-btn
-        >
+        <a href="#">
+          <v-btn rounded color="primary" x-large width="200px"
+            ><v-icon left>mdi-google-play</v-icon>Play Store</v-btn
+          >
+        </a>
       </div>
     </div>
 
@@ -228,10 +232,16 @@ export default {
 }
 
 @media (max-width: 400px) {
+  .header-container {
+    height: 650px;
+  }
   .header-decor {
     display: none;
   }
   .text_layout {
+    font-size: 35px;
+  }
+  .text_layout_small {
     font-size: 20px;
   }
 }
@@ -369,6 +379,9 @@ export default {
 }
 
 @media (max-width: 360px) {
+  .header-container {
+    height: 650px;
+  }
   .text_layout {
     font-size: 30px;
   }

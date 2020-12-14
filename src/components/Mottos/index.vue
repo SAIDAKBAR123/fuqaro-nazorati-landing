@@ -11,17 +11,17 @@
     ></div>
     <div id="tafsilot">
       <p class="text-about">
-        Ushbu qo'llanma sizga bizning ilovani ishga tushurishingizga yordam
+        Ushbu qo'llanma sizga bizning ilovani ishga tushirishingizga yordam
         beradi. Ushbu qo'llanmani bosqichma bosqish amalga oshiring!
       </p>
     </div>
     <div class="template-box_container">
       <div class="rectangle instruction-1"></div>
       <div class="text-container">
-        <h2 class="text_layout">1. Ilovani ishga tushurish</h2>
+        <h2 class="text_layout">1. Ilovani ishga tushirish</h2>
         <p class="pt-5 text-haqida-p">
           Bizning ilovani yuklab olganingizda sizda quyidagi ko'rinishda sahifa
-          paydo bo'ladi. Ilovani ishga tushurish uchun
+          paydo bo'ladi. Ilovani ishga tushirish uchun
           <strong>Boshlash</strong> tugmasini bosing!
         </p>
       </div>
@@ -66,7 +66,7 @@
         <p class="pt-5 text-haqida-p">
           Murojaatingiz kerakli tashkilotga yetib borgach, sizga mutasaddi
           tashkilotlar tomonidan habar keladi. Siz to'gridan to'gri mutasaddi
-          tashkilotalar bilan aloqada bo'lib, muammo hal bo'lish jarayonini
+          tashkilotlar bilan aloqada bo'lib, muammo hal bo'lish jarayonini
           kuzatib borasiz!
         </p>
       </div>
@@ -150,7 +150,7 @@
           </div>
           <div class="grid-item">
             <v-img
-               height="100px"
+              height="100px"
               width="100px"
               contain
               class="mx-auto"
@@ -207,7 +207,7 @@
 .text_layout {
   font-size: 30px;
 }
-.bkg{
+.bkg {
   background-size: contain;
 }
 .text-haqida-p {

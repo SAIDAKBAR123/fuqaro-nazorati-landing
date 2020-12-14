@@ -119,9 +119,11 @@
         <div class="grid-container">
           <div class="grid-item">
             <v-img
-              height="101"
-              width="103"
-              class="mx-auto"
+              height="100px"
+              width="100px"
+              contain
+              centered
+              class="mx-auto bkg"
               src="../../assets/Images/document.png"
             >
             </v-img>
@@ -133,10 +135,11 @@
           </div>
           <div class="grid-item">
             <v-img
-              height="101"
-              width="103"
+              height="100px"
+              width="100px"
+              contain
               class="mx-auto"
-              src="../../assets/Images/police.png"
+              src="../../assets/Images/government-building.png"
             >
             </v-img>
             <h4>Hokimiyat</h4>
@@ -147,8 +150,9 @@
           </div>
           <div class="grid-item">
             <v-img
-              height="101"
-              width="103"
+               height="100px"
+              width="100px"
+              contain
               class="mx-auto"
               src="../../assets/Images/pdf-pic.png"
             >
@@ -203,7 +207,9 @@
 .text_layout {
   font-size: 30px;
 }
-
+.bkg{
+  background-size: contain;
+}
 .text-haqida-p {
   font-size: 24px;
 }
@@ -251,7 +257,7 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1215px;
-  margin: 15% auto;
+  margin: 10% auto;
 }
 .green-box {
   width: 30px;
@@ -364,7 +370,7 @@
 /* ------------Bizning asosiy maqsadimiz--------------- */
 .mail-block {
   max-width: 1184px;
-  margin: 15% auto;
+  margin: 5% auto;
   text-align: center;
   background-color: white;
   border-radius: 10px;

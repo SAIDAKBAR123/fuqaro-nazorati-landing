@@ -33,7 +33,7 @@
         </div>
         <a href="#" class="text-decoration-none">
           <v-btn rounded text class="batafsil_btn body-1" width="150px"
-          ><v-icon left medium class="icons">mdi-google-play</v-icon> Play
+          ><v-icon left small class="icons">mdi-google-play</v-icon> Play
           Store</v-btn
         >
         </a>

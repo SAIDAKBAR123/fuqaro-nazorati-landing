@@ -1,6 +1,6 @@
 <template>
   <v-card class="templates mt-10" color="white" tile flat max-width="1690">
-    <h2 class="text-left">Qo'llanma</h2>
+    <h2 class="text-left" id="tafsilot">Qo'llanma</h2>
     <div
       style="
         width: 100px;
@@ -9,7 +9,7 @@
         border-radius: 10px;
       "
     ></div>
-    <div id="tafsilot">
+    <div>
       <p class="text-about">
         Ushbu qo'llanma sizga bizning ilovani ishga tushirishingizga yordam
         beradi. Ushbu qo'llanmani bosqichma bosqish amalga oshiring!

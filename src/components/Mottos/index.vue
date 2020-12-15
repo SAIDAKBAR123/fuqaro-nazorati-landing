@@ -65,7 +65,7 @@
         <h2 class="text_layout">5. Murojaatingizga javob kelishi</h2>
         <p class="pt-5 text-haqida-p">
           Murojaatingiz kerakli tashkilotga yetib borgach, sizga mutasaddi
-          tashkilotlar tomonidan habar keladi. Siz to'gridan to'gri mutasaddi
+          tashkilotlar tomonidan habar keladi. Siz to'gridan-to'gri mutasaddi
           tashkilotlar bilan aloqada bo'lib, muammo hal bo'lish jarayonini
           kuzatib borasiz!
         </p>

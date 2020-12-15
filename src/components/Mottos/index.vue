@@ -12,7 +12,7 @@
     <div>
       <p class="text-about">
         Ushbu qo'llanma sizga bizning ilovani ishga tushirishingizga yordam
-        beradi. Ushbu qo'llanmani bosqichma bosqish amalga oshiring!
+        beradi. Ushbu qo'llanmani bosqichma-bosqish amalga oshiring!
       </p>
     </div>
     <div class="template-box_container">

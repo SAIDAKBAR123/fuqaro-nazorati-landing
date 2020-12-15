@@ -52,9 +52,9 @@
         <p>Statistika</p>
         <div class="shape s-shape"></div>
         <p>
-          Bizda har bir murojaatlar ro'yhatga olinib, ular ustida statistik
-          ishlar, jumladan, nechta muammolar hal qilinganligi yoki jarayondagi
-          kabi har bir ma'lumotlar to'planadi va oddiy aholiga ushbu ma'lumotlar
+          Bizda har bir murojaat ro'yhatga olinib, ular ustida statistik
+          ishlar, jumladan, nechta muammolar hal qilinganligi yoki jarayondaligi
+          kabi har bir ma'lumot to'planadi va oddiy aholiga ushbu ma'lumotlar
           ochiqdan-ochiq ko'rsatib boriladi.
         </p>
         <!--<p class="input-title">Ko'chani tanlang</p>

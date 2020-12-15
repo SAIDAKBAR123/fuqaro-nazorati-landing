@@ -167,7 +167,7 @@ export default {
 @media (max-width: 830px) {
   .loyiha-haqida-container {
     grid-template-columns: minmax(200px, 500px);
-    grid-template-rows: minmax(200px, 500px) minmax(200px, 450px);
+    grid-template-rows: minmax(200px, 500px) minmax(200px, 650px);
     row-gap: 10px;
     padding: 40px;
     padding-bottom: 0;

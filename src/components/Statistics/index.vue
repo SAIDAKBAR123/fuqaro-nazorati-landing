@@ -7,7 +7,7 @@
         <p>
           Ushbu loyiha istalgan muammoni qisqa muddat ichida, sifatli bartaraf
           qilishga mo'ljallangan bo'lib, aholi yashash sharoitini yaxshilashga
-          qaratilgan. Siz endi murojaatlaringizni osongina, online tarzda hech
+          qaratilgan. Siz endi murojaatlaringizni osongina, onlayn tarzda hech
           qanday qog'ozbozchiliklarsiz, uzoq navbatlarsiz yuborishingiz mumkin.
           Bizda hech bir fuqaro murojaati e'tiborsiz qolmaydi.
         </p>

@@ -31,12 +31,12 @@
             >
           </v-list>
         </div>
-        <a href="#" class="text-decoration-none">
+        <!-- <a href="#" class="text-decoration-none">
           <v-btn rounded text class="batafsil_btn body-1" width="150px"
           ><v-icon left small class="icons">mdi-google-play</v-icon> Play
           Store</v-btn
         >
-        </a>
+        </a> -->
 
       </div>
       <div class="loyiha-image-container">

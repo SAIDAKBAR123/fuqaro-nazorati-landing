@@ -7,23 +7,33 @@
           <v-list >
               <v-list-item-group v-model="item" color="primary"  class="footer-list">
                 <v-list-item
-                v-for="link in links" :key="link"
-                  inactive
                   color="black"
                   text-sm-center
                 >
-                {{link}}
+                <a href="#about" class="footer-links">Biz haqimizda</a>
+                </v-list-item>
+                 <v-list-item
+                  color="black"
+                  text-sm-center
+                >
+                <a href="#hizmat" class="footer-links">Hizmat turlari</a>
+                </v-list-item>
+                 <v-list-item
+                  color="black"
+                  text-sm-center
+                >
+                <a href="#aloqa" class="footer-links">Aloqa</a>
                 </v-list-item>
               </v-list-item-group>
           </v-list>
           <v-spacer ></v-spacer>
           <div class="addrs">
-            <v-img
+            <!-- <v-img
               src="@/assets/google-play.png"
               height="50px"
               max-width="200px"
               right>
-            </v-img>
+            </v-img> -->
             <p class="black-txt ma-10 ml-5" > Manzil: Toshkent shahar, Chilonzor tumani, 203 uy.</p>
           </div>
         </v-row>
@@ -37,7 +47,7 @@
         </v-card-title> -->
 
         <v-card-text class="py-2 gray--text text-center">
-          {{ new Date().getFullYear() }} — <strong>ITsolutions</strong>
+          {{ new Date().getFullYear() }} — <a href="http://it-solutions.uz"><strong>ITsolutions</strong></a>
         </v-card-text>
       </v-card>
     </v-footer>
@@ -46,11 +56,6 @@
 
 <script>
 export default {
-  data: () => ({
-    links: [
-      'Biz haqimizda', 'Hizmat turlari', 'Aloqa'
-    ]
-  })
 }
 </script>
 
@@ -61,6 +66,9 @@ export default {
 .footr{
     max-width: 1690px;
     margin: 0 auto!important;
+  }
+  .footer-links{
+    text-decoration: none;
   }
 @media (max-width:1690px){
   .footr{

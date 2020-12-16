@@ -7,7 +7,7 @@
         <p>
           Ushbu loyiha istalgan muammoni qisqa muddat ichida, sifatli bartaraf
           qilishga mo'ljallangan bo'lib, aholi yashash sharoitini yaxshilashga
-          qaratilgan. Siz endi murojaatlaringizni osongina, online tarzda hech
+          qaratilgan. Siz endi murojaatlaringizni osongina, onlayn tarzda hech
           qanday qog'ozbozchiliklarsiz, uzoq navbatlarsiz yuborishingiz mumkin.
           Bizda hech bir fuqaro murojaati e'tiborsiz qolmaydi.
         </p>
@@ -31,12 +31,12 @@
             >
           </v-list>
         </div>
-        <a href="#" class="text-decoration-none">
+        <!-- <a href="#" class="text-decoration-none">
           <v-btn rounded text class="batafsil_btn body-1" width="150px"
-          ><v-icon left medium class="icons">mdi-google-play</v-icon> Play
+          ><v-icon left small class="icons">mdi-google-play</v-icon> Play
           Store</v-btn
         >
-        </a>
+        </a> -->
 
       </div>
       <div class="loyiha-image-container">

@@ -75,7 +75,7 @@ export default {
   width: 100%;
   position: fixed;
   z-index: 111;
-  background-color: rgba(52, 166, 150, 0.3);
+  background-color: #1E444D;
   backdrop-filter: blur(15px);
 }
 

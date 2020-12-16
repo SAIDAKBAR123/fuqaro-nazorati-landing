@@ -75,19 +75,19 @@
       <div class="statistika-right-container">
         <div>
           <p>Umumiy</p>
-          <p>0</p>
+          <p>{{ statistics.all }}</p>
         </div>
         <div>
           <p>Jarayonda</p>
-          <p>0</p>
+          <p>{{ statistics.reviewed }}</p>
         </div>
         <div>
           <p>Hal etilgan</p>
-          <p>0</p>
+          <p>{{ statistics.closed }}</p>
         </div>
         <div>
           <p>Rad etilgan</p>
-          <p>0</p>
+          <p>{{ statistics.rejected }}</p>
         </div>
       </div>
     </div>
@@ -97,8 +97,20 @@
 <script>
 export default {
   data: () => ({
-    items: ['Foo', 'Bar', 'Fizz', 'Buzz']
-  })
+    // items: ['Foo', 'Bar', 'Fizz', 'Buzz'],
+    statistics: {
+      all: 0,
+      closed: 0,
+      inHokimiyat: 0,
+      rejected: 0,
+      reviewed: 0
+    }
+  }),
+  created () {
+    const baseURL = process.env.VUE_APP_BASE_URL
+    fetch(`${baseURL}stats/requests `).then(response => response.json())
+      .then(data => (this.statistics = data))
+  }
 }
 </script>
 

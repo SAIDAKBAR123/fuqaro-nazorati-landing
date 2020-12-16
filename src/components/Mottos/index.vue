@@ -107,7 +107,7 @@
     </div> -->
     <!----------------- Biz asosiy maqsadimiz --------------->
     <v-row color="#E2E2E2">
-      <div class="goals-block" style="margin: 0 auto 15%">
+      <div class="goals-block" style="margin: 0 auto">
         <h2 class="text-center" style="font-size: 30px" id="hizmat">
           Bizning asosiy maqsadimiz
         </h2>
@@ -166,7 +166,7 @@
           </div>
         </div>
         <!----------------- Bizning asosiy maqsadimiz --------------->
-        <div class="mail-block" id="aloqa">
+        <div v-if="false" class="mail-block" id="aloqa">
           <h1>
             Oxirgi yangiliklardan behabar qolmaslik uchun quyidagi email
             formasini toldiring va biz bilan birga bo'ling!

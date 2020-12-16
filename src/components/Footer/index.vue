@@ -18,13 +18,7 @@
                 >
                 <a href="#hizmat" class="footer-links">Hizmat turlari</a>
                 </v-list-item>
-                 <v-list-item
-                  color="black"
-                  text-sm-center
-                >
-                <a href="#aloqa" class="footer-links">Aloqa</a>
-                </v-list-item>
-              </v-list-item-group>
+                </v-list-item-group>
           </v-list>
           <v-spacer ></v-spacer>
           <div class="addrs">

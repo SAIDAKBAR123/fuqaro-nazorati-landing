@@ -75,19 +75,19 @@
       <div class="statistika-right-container">
         <div>
           <p>Umumiy</p>
-          <p>3234</p>
+          <p>0</p>
         </div>
         <div>
           <p>Jarayonda</p>
-          <p>453</p>
+          <p>0</p>
         </div>
         <div>
           <p>Hal etilgan</p>
-          <p>234</p>
+          <p>0</p>
         </div>
         <div>
           <p>Rad etilgan</p>
-          <p>234</p>
+          <p>0</p>
         </div>
       </div>
     </div>

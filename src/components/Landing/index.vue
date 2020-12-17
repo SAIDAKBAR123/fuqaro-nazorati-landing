@@ -1,5 +1,6 @@
 <template>
   <div class="header-container">
+     <img src="@/assets/1.png" alt="banner-img"  height="60%" class="banner-img">
     <div class="header-title">
       <div
         style="
@@ -26,8 +27,7 @@
         </a> -->
       </div>
     </div>
-
-    <div class="header-chat">
+    <div v-if="false" class="header-chat">
       <img
         src="../../assets/banner/photo_2020-12-01_13-30-27.jpg"
         alt="Amira-picture"
@@ -108,7 +108,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   height: 1000px;
-  justify-content: start;
+  justify-content: space-evenly;
   align-items: center;
   width: 100%;
   position: relative;
@@ -274,6 +274,15 @@ export default {
   }
 }
 
+@media  (max-width: 1350px) {
+   .banner-img{
+  height: 40%;
+  margin-left: 10%;
+}
+.text_layout[data-v-aad7fc4c] {
+    font-size: 38px;
+}
+}
 @media (min-width: 1280px) and (max-width: 1399px) {
   .header-chat {
     top: -3px;
@@ -368,7 +377,11 @@ export default {
     top: 580px;
   }
 }
-
+@media  (max-width: 700px){
+  .banner-img{
+    display: none;
+  }
+}
 @media (max-width: 1030px) {
   .header-chat {
     display: none;

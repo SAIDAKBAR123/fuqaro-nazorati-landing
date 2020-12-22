@@ -20,11 +20,11 @@
           >Endilikda siz o'z muammo va takliflaringizni <br />
           onlayn tarzda ariza berish orqali amalga oshirishingiz mumkin.
         </span>
-        <!-- <a href="#">
+        <a href="https://play.google.com/store/apps/details?id=uz.itsolutions.FuqaroNazorati">
           <v-btn rounded color="primary" x-large width="200px"
             ><v-icon left>mdi-google-play</v-icon>Play Store</v-btn
           >
-        </a> -->
+        </a>
       </div>
     </div>
     <div v-if="false" class="header-chat">

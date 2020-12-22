@@ -142,7 +142,7 @@ export default {
 .text_layout_small {
   font-size: 25px;
   color: white;
-  margin-bottom: 5px;
+  margin-bottom: 35px;
 }
 
 /* banner pictures */

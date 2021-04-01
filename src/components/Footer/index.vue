@@ -6,10 +6,10 @@
           <v-list>
             <v-list-item-group v-model="item" color="primary" class="footer-list">
               <v-list-item color="black" text-sm-center>
-                <a href="#about" class="footer-links">Biz haqimizda</a>
+                <a href="./privacy.html" class="footer-links" target="_blank">Maxfiylik siyosati</a>
               </v-list-item>
               <v-list-item color="black" text-sm-center>
-                <a href="#hizmat" class="footer-links">Hizmat turlari</a>
+                <a href="./terms.html" class="footer-links" target="_blank">Foydalanish shartlari</a>
               </v-list-item>
             </v-list-item-group>
           </v-list>

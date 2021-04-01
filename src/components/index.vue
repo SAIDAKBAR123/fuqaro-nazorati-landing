@@ -14,6 +14,7 @@
         <Mottos />
       </v-col>
     </v-row>
+        <Footer />
   </div>
 </template>
 
@@ -22,12 +23,14 @@ import Statistics from './Statistics'
 import Mottos from './Mottos'
 import Landing from './Landing'
 import Toolbar from './Toolbar'
+import Footer from '@/components/Footer'
 export default {
   components: {
     Landing,
     Statistics,
     Mottos,
-    Toolbar
+    Toolbar,
+    Footer
   }
 }
 </script>

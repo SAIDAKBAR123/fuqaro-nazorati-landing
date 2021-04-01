@@ -6,10 +6,10 @@
           <v-list>
             <v-list-item-group v-model="item" color="primary" class="footer-list">
               <v-list-item color="black" text-sm-center>
-                <a href="https://fuqaro-nazorati.uz/privacy" class="footer-links">Maxfiylik siyosati</a>
+                <a href="https://fuqaro-nazorati.uz/privacy.html" class="footer-links">Maxfiylik siyosati</a>
               </v-list-item>
               <v-list-item color="black" text-sm-center>
-                <a href="https://fuqaro-nazorati.uz/terms" class="footer-links" target="_blank">Foydalanish shartlari</a>
+                <a href="https://fuqaro-nazorati.uz/terms.html" class="footer-links" target="_blank">Foydalanish shartlari</a>
               </v-list-item>
             </v-list-item-group>
           </v-list>

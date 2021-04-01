@@ -6,16 +6,17 @@
           <v-list>
             <v-list-item-group v-model="item" color="primary" class="footer-list">
               <v-list-item color="black" text-sm-center>
-                <a href="./privacy.html" class="footer-links" target="_blank">Maxfiylik siyosati</a>
+                <a href="https://fuqaro-nazorati.uz/privacy" class="footer-links">Maxfiylik siyosati</a>
               </v-list-item>
               <v-list-item color="black" text-sm-center>
-                <a href="./terms.html" class="footer-links" target="_blank">Foydalanish shartlari</a>
+                <a href="https://fuqaro-nazorati.uz/terms" class="footer-links" target="_blank">Foydalanish shartlari</a>
               </v-list-item>
             </v-list-item-group>
           </v-list>
           <v-spacer></v-spacer>
           <div v-if="false" class="addrs">
             <!-- <v-img
+
               src="@/assets/google-play.png"
               height="50px"
               max-width="200px"
@@ -25,7 +26,17 @@
               Manzil: Toshkent shahar, Chilonzor tumani, 203 uy.
             </p>
           </div>
+               <div class="addrs">
+            <p class="black-txt ">
+              <a href="tel:+998 76 4574100">+998 76 4574100</a>
+                <br>
+              Manzil: Shurchi t., Mustaqillik ko'chasi, 72 uy.
+              <br>
+             <a href="mailto:info@shurchi.uz">info@shurchi.uz</a>
+            </p>
+          </div>
         </v-row>
+
         <!-- <v-card-title class="">
           <v-spacer></v-spacer>
           <v-btn v-for="icon in icons" :key="icon" class="mx-4" dark icon>

@@ -1,5 +1,6 @@
 <template>
   <div class="header-container">
+     <img src="@/assets/1.png" alt="banner-img"  height="60%" class="banner-img">
     <div class="header-title">
       <div
         style="
@@ -19,15 +20,20 @@
           >Endilikda siz o'z muammo va takliflaringizni <br />
           onlayn tarzda ariza berish orqali amalga oshirishingiz mumkin.
         </span>
-        <!-- <a href="#">
+        <v-row justify="space-between" class="button-row" ><a href="https://play.google.com/store/apps/details?id=uz.itsolutions.FuqaroNazorati" target='_blank'>
           <v-btn rounded color="primary" x-large width="200px"
             ><v-icon left>mdi-google-play</v-icon>Play Store</v-btn
           >
-        </a> -->
+        </a>
+         <a href="https://apps.apple.com/uz/app/fuqaronazorati/id1560649797" target='_blank' class="apple-btn">
+          <v-btn rounded color="primary" x-large width="200px"
+            ><v-icon left>mdi-apple</v-icon>App Store</v-btn
+          >
+        </a>
+        </v-row>
       </div>
     </div>
-
-    <div class="header-chat">
+    <div v-if="false" class="header-chat">
       <img
         src="../../assets/banner/photo_2020-12-01_13-30-27.jpg"
         alt="Amira-picture"
@@ -100,6 +106,9 @@ export default {
   margin: 0;
   padding: 0;
 }
+.button-row{
+width:430px
+}
 .header-container {
   margin: 0;
   padding: 0;
@@ -108,7 +117,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   height: 1000px;
-  justify-content: start;
+  justify-content: space-evenly;
   align-items: center;
   width: 100%;
   position: relative;
@@ -142,7 +151,7 @@ export default {
 .text_layout_small {
   font-size: 25px;
   color: white;
-  margin-bottom: 5px;
+  margin-bottom: 35px;
 }
 
 /* banner pictures */
@@ -274,6 +283,15 @@ export default {
   }
 }
 
+@media  (max-width: 1350px) {
+   .banner-img{
+  height: 40%;
+  margin-left: 10%;
+}
+.text_layout[data-v-aad7fc4c] {
+    font-size: 38px;
+}
+}
 @media (min-width: 1280px) and (max-width: 1399px) {
   .header-chat {
     top: -3px;
@@ -368,7 +386,11 @@ export default {
     top: 580px;
   }
 }
-
+@media  (max-width: 700px){
+  .banner-img{
+    display: none;
+  }
+}
 @media (max-width: 1030px) {
   .header-chat {
     display: none;
@@ -377,7 +399,15 @@ export default {
     margin-bottom: 100px;
   }
 }
-
+@media (max-width:800px) {
+  .button-row{
+    width:200px;
+    display:flex;
+    flex-direction:column;}
+    .apple-btn{
+      margin-top:20px;
+    }
+}
 @media (max-width: 360px) {
   .header-container {
     height: 650px;

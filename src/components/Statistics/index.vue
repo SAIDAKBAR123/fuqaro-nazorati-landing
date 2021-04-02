@@ -31,13 +31,19 @@
             >
           </v-list>
         </div>
-        <!-- <a href="#" class="text-decoration-none">
+        <v-row justify="space-between" class="button-row" ><a href="https://play.google.com/store/apps/details?id=uz.itsolutions.FuqaroNazorati" target='_blank' class="text-decoration-none">
           <v-btn rounded text class="batafsil_btn body-1" width="150px"
           ><v-icon left small class="icons">mdi-google-play</v-icon> Play
           Store</v-btn
         >
-        </a> -->
-
+        </a>
+        <a href="https://apps.apple.com/uz/app/fuqaronazorati/id1560649797" target='_blank' class="text-decoration-none apple-btn">
+          <v-btn rounded text class="batafsil_btn body-1" width="150px"
+          ><v-icon left small class="icons">mdi-apple</v-icon> App
+          Store</v-btn
+        >
+        </a>
+ </v-row>
       </div>
       <div class="loyiha-image-container">
         <img
@@ -75,19 +81,19 @@
       <div class="statistika-right-container">
         <div>
           <p>Umumiy</p>
-          <p>3234</p>
+          <p>{{ statistics.all }}</p>
         </div>
         <div>
           <p>Jarayonda</p>
-          <p>453</p>
+          <p>{{ statistics.reviewed }}</p>
         </div>
         <div>
           <p>Hal etilgan</p>
-          <p>234</p>
+          <p>{{ statistics.closed }}</p>
         </div>
         <div>
           <p>Rad etilgan</p>
-          <p>234</p>
+          <p>{{ statistics.rejected }}</p>
         </div>
       </div>
     </div>
@@ -97,8 +103,20 @@
 <script>
 export default {
   data: () => ({
-    items: ['Foo', 'Bar', 'Fizz', 'Buzz']
-  })
+    // items: ['Foo', 'Bar', 'Fizz', 'Buzz'],
+    statistics: {
+      all: 0,
+      closed: 0,
+      inHokimiyat: 0,
+      rejected: 0,
+      reviewed: 0
+    }
+  }),
+  created () {
+    const baseURL = process.env.VUE_APP_BASE_URL
+    fetch(`${baseURL}stats/requests `).then(response => response.json())
+      .then(data => (this.statistics = data))
+  }
 }
 </script>
 
@@ -114,7 +132,9 @@ export default {
   flex-direction: column;
   width: 100%;
 }
-
+.common-container .button-row{
+width:320px
+}
 .loyiha-haqida-container {
   padding: 30px;
   padding-left: 60px;
@@ -166,8 +186,19 @@ export default {
   display: grid;
   justify-content: center;
 }
-
 @media (max-width: 830px) {
+ .common-container .button-row{
+    width:200px;
+    display:flex;
+    flex-direction:column;
+    padding-top:15px
+ }
+    .apple-btn{
+      margin-top:10px;
+    }
+.batafsil_btn{
+  margin-top:5px
+}
   .loyiha-haqida-container {
     grid-template-columns: minmax(200px, 500px);
     grid-template-rows: minmax(200px, 500px) minmax(200px, 650px);

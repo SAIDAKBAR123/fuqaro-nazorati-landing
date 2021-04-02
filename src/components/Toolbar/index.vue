@@ -12,9 +12,7 @@
     <div class="navbar-links" v-bind:class="{ active: isActive }">
       <ul>
         <li>
-          <a href="#tafsilot" @click.prevent="navbarLinkClick()"
-            >Texnik Tavsilot</a
-          >
+          <a href="#tafsilot" @click.prevent="navbarLinkClick()">Texnik Tavsilot</a>
         </li>
         <li>
           <a href="#about" @click.prevent="navbarLinkClick()">Biz Haqimizda</a>
@@ -25,7 +23,6 @@
         <li>
           <a href="#hizmat" @click.prevent="navbarLinkClick()">Hizmatlar</a>
         </li>
-        <li><a href="#aloqa" @click.prevent="navbarLinkClick()">Aloqa</a></li>
         <!--<li>
           <a href=""><v-icon style="color: rgb(43 129 197)">mdi-web</v-icon><v-icon style="color: rgb(43 129 197)">mdi-menu-down-outline</v-icon></a>
         </li>-->
@@ -78,7 +75,7 @@ export default {
   width: 100%;
   position: fixed;
   z-index: 111;
-  background-color: rgba(52, 166, 150, 0.3);
+  background-color: #1E444D;
   backdrop-filter: blur(15px);
 }
 

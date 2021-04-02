@@ -20,11 +20,17 @@
           >Endilikda siz o'z muammo va takliflaringizni <br />
           onlayn tarzda ariza berish orqali amalga oshirishingiz mumkin.
         </span>
-        <a href="https://play.google.com/store/apps/details?id=uz.itsolutions.FuqaroNazorati" target='_blank'>
+        <v-row justify="space-between" class="button-row" ><a href="https://play.google.com/store/apps/details?id=uz.itsolutions.FuqaroNazorati" target='_blank'>
           <v-btn rounded color="primary" x-large width="200px"
             ><v-icon left>mdi-google-play</v-icon>Play Store</v-btn
           >
         </a>
+         <a href="https://apps.apple.com/uz/app/fuqaronazorati/id1560649797" target='_blank' class="apple-btn">
+          <v-btn rounded color="primary" x-large width="200px"
+            ><v-icon left>mdi-apple</v-icon>App Store</v-btn
+          >
+        </a>
+        </v-row>
       </div>
     </div>
     <div v-if="false" class="header-chat">
@@ -99,6 +105,9 @@ export default {
   box-sizing: 0;
   margin: 0;
   padding: 0;
+}
+.button-row{
+width:430px
 }
 .header-container {
   margin: 0;
@@ -390,7 +399,15 @@ export default {
     margin-bottom: 100px;
   }
 }
-
+@media (max-width:800px) {
+  .button-row{
+    width:200px;
+    display:flex;
+    flex-direction:column;}
+    .apple-btn{
+      margin-top:20px;
+    }
+}
 @media (max-width: 360px) {
   .header-container {
     height: 650px;
